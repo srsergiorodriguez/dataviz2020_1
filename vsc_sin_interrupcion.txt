@@ -1,0 +1,19 @@
+Copia y pega esto en settings.json de VisualStudioCode para evitar mensajes molestos mientras editas código
+
+{
+    "editor.quickSuggestionsDelay": 3000,
+    "editor.snippetSuggestions": "none",
+    "editor.hover.enabled": false,
+    "editor.parameterHints.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.suggest.showIcons": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestOnTriggerCharacters": false,
+    "workbench.colorTheme": "Monokai",
+    "breadcrumbs.enabled": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.fontSize": 13,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.activityBar.visible": false,
+    "window.zoomLevel": 0
+}
