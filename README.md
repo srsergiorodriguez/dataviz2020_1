@@ -43,4 +43,4 @@ El documento HTML debe usar varias etiquetas para definir los tipos de elementos
 La idea es que experimenten y prueben con distintas formar de marcar el contenido y que encuentren los trucos que más les funcionen. Si tienen dudas, no olviden consultar los relámpagos o las referencias de HTML y CSS que se encuentran en internet. Es imposible memorizarlo todo, así que es una buena práctica aprender a buscar de acuerdo a las necesidades de cada proyecto.
 Para este ejercicio es particularmente adecuada la página de un libro de historia del arte, el cine o el diseño, pues contiene elementos distintivos que anotarse usando varias etiquetas diferentes.
 
-Deben subir la entrega a su carpeta de este repositorio: creen una subcarpeta llamada "entrega_1" y ahí suban un archivo "index.html" con su entrega.
+Deben subir la entrega a la carpeta de este repositorio con su nombre. Creen una subcarpeta llamada "entrega_1" y ahí suban un archivo "index.html" con su documento anotado.
