@@ -40,7 +40,7 @@ Los comentarios críticos son escritos de aproximadamente mil palabras que deben
 La entrega 1 consiste en crear un documento HTML en el que se codifique o anote el contenido de una página de un libro.
 El documento HTML debe usar varias etiquetas para definir los tipos de elementos que serían equivalentes a la página del libro dentro de un sitio web: encabezados y sub-encabezados, párrafos, imágenes, enlaces...etc. Adicionalmente deben incluir algunos elementos de estilo CSS que modifiquen la apariencia del documento y lo hagan más interesante.
 
-La idea es que experimenten y prueben con distintas formar de marcar el contenido y que encuentren los trucos que más les funcionen. Si tienen dudas, no olviden consultar los relámpagos o las referencias de HTML y CSS que se encuentran en internet. Es imposible memorizarlo todo, así que es una buena práctica aprender a buscar de acuerdo a las necesidades de cada proyecto.
+La idea es que experimenten y prueben con distintas formas de marcar el contenido, y que encuentren estrategias que les funcionen a su gusto y sus propósitos. Si tienen dudas, no olviden consultar los relámpagos o las referencias de HTML y CSS que se encuentran en internet. Es imposible memorizarlo todo, así que es una buena práctica aprender a buscar de acuerdo a las necesidades de cada proyecto.
 Para este ejercicio es particularmente adecuada la página de un libro de historia del arte, el cine o el diseño, pues contiene elementos distintivos que anotarse usando varias etiquetas diferentes.
 
 Deben subir la entrega a la carpeta de este repositorio con su nombre. Creen una subcarpeta llamada "entrega_1" y ahí suban un archivo "index.html" con su documento anotado.
