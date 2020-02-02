@@ -1,0 +1,22 @@
+% 1. Title: Protocolo de anotación Beatriz González
+%
+% 2. Source:
+%       (a) Catalogo razonado de Beatriz González — BADAC (https://bga.uniandes.edu.co/catalogo/)
+
+@RELATION obra
+
+@ATTRIBUTE id NUMBER,
+@ATTRIBUTE collection_name STRING {1960 - 1969}
+@ATTRIBUTE colection_num NUMBER
+@ATTRIBUTE thumbs STRING[url,...]
+@ATTRIBUTE fullsize STRING[url,...]
+@ATTRIBUTE title STRING
+@ATTRIBUTE date NUMBER
+@ATTRIBUTE medium STRING {Carboncillo sobre papel}
+@ATTRIBUTE format NUMBER[ancho,alto,profundo]
+@ATTRIBUTE contributor STRING
+@ATTRIBUTE rights holder STRING
+@ATTRIBUTE type STRING
+@ATTRIBUTE color NUMBER[R,G,B]
+@ATTRIBUTE color name
+@ATTRIBUTE palette String [[R,G,B]x10]
