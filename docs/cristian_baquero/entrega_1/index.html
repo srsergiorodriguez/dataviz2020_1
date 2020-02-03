@@ -4,62 +4,76 @@
         <title>
             La obra cartográfica de Francisco José de Caldas
         </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-       <style> 
-/*Responsive*/
-       .responsive {
-        width: auto;
-        height: auto;
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+        /* Arreglé la indentación del documento para que esté mejor organizado. Sergio (de aquí en adelante, S)*/
+
+        /* Este selector de clase responsive no cumple ninguna función
+        pues no hay ningun elemento HTML con esa clase. S */
+        /*Responsive*/
+        .responsive {
+          width: auto;
+          height: auto;
         }    
-/*Columns*/
-      * {
-  box-sizing: border-box;
-}
-      .row {
-       content: "";
-  display: table;
-  clear: both;
-       }
-      .column {
-        float: left;
-  padding: 10px;
-  height: 600px;
-       }
-/*Columns Different Size*/
-.left {
-  width: 40%;
-}
-.right {
-  width: 60%;
-}
-/*TEXT*/
-      p.text {
-       color: #000000;
-       text shadow: 3px #000000;
-       font-family: "Proforma", serif;
-       line-height: 1.5;
-      }
-      p.text1 {
-       color: #FF0000;
-       text shadow: 3px #FF0000;
-       font-family: "Proforma", serif;
-       line-height: 1.5;
-      }
-/*ALIGNMENT*/
+
+          /*Columns*/
+        * {
+          box-sizing: border-box;
+        }
+        .row {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        .column {
+          float: left;
+          padding: 10px;
+          height: 600px;
+        }
+
+        /*Columns Different Size*/
+        .left {
+          width: 40%;
+        }
+        .right {
+           width: 60%;
+        }
+
+        /*TEXT*/
+        p.text {
+          color: #000000;
+          /* corrección: se debe escribir "text-shadow" con un guión. S */
+          text shadow: 3px #000000;
+          font-family: "Proforma", serif;
+          line-height: 1.5;
+        }
+        p.text1 {
+          color: #FF0000;
+          /* Aquí también. S */
+          text shadow: 3px #FF0000;
+          font-family: "Proforma", serif;
+          line-height: 1.5;
+        }
+        /*ALIGNMENT*/
         div.a {
           text-align: center;
         }
-
+        /* Este selector está modificando divisores (div) con la clase "b",
+        pero el documento solo tiene párrafos (p) con esa clase */
         div.b {
           text-align: left;
         }
 
         div.c {
           text-align: right;
-        } 
+        }
 
+        /* Aquí hay un selector de CSS llamado "d", 
+        pero no hay ningún elemento HTML que tenga esa clase, 
+        así que esta parte del código no cumple ninguna función. S */
         div.d {
           text-align: justify;
+          text-justify: inter-word;
         } 
         </style>
     </head>
@@ -78,6 +92,11 @@
           </div>
           <div class="column right" style="background-color:#FFFFFF;">
             <div class="c">
+            <!-- No es necesario definir este párrafo dentro de la clase "c", 
+            pues el div que lo contiene ya tiene esa clase. De hecho, es mejor
+            usar cada clase para solo un tipo de elemento, a menos que sea un caso excepcional -->
+            <!-- No es una buena práctica usar la etiqueta de quiebre de línea para diagramar 
+            es más eficiente crear un div vacío y ponerle la altura deseada-->
             <p class="text" class="c"style="font-size:1vw"><br><br><br><br><br><br>
               <b>12.7 Francisco José de Caldas, <i>Carta <br>
               del camino de Malbucho desde Ybarra<br>
@@ -115,6 +134,8 @@
           <img src="https://i.ibb.co/D4vrY3G/Screen-Shot-2020-02-03-at-12-09-32-PM.png" alt="Screen-Shot-2020-02-03-at-12-09-32-PM" width="100%">
         <br>
         <p class="text" class="b" style="font-size:1.6vw">
+        <!-- No es necesario poner la etiqueta <br> al final de cada línea
+        de hecho, eso impide que el texto se justifique correctamente -->
         criaturas débiles y degeneradas. Los criollos aceptan el poder del clima y la auto-<br>
         ridad de los naturalistas europeos, pero las implicaciones de los argumentos de<br>
         Buffon para el Nuevo Mundo fueron matizadas por la enorme variedad de climas<br>
