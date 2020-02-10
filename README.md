@@ -7,6 +7,8 @@ Este es el Repositorio de la clase Visualización de Datos 2020-1 de la Maestrí
 
 Cronograma de la clase: ([enlace](https://docs.google.com/spreadsheets/d/1DwswmpAYTe26Tsgoxev0eM73QhUNXzxUuQHZH8BhRUI/edit?usp=sharing))
 
+Notas de la clase: ([enlace](https://docs.google.com/spreadsheets/d/1K_rnWf3lV4N5knn7pLpzE9ClJoxl-ljuVs3BCbWUAt0/edit?usp=sharing))
+
 ## Descargar carpetas de este repositorio
 
 Para descargar carpetas de este repositorio ingresa a [este sitio](http://kinolien.github.io/gitzip/) y, en el cuadro de texto que dice "GitHub repo root URL or subfolder URL", pon el enlace a la carpeta que quieres descagar. Por ejemplo, para descargar un folder con la plantilla de p5 en blanco se debe poner el enlace `https://github.com/srsergiorodriguez/dataviz2020_1/tree/master/plantillas/p5_en_blanco` dentro del cuadro de texto.
