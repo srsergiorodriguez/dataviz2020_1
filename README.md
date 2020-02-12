@@ -50,3 +50,28 @@ La idea es que experimenten y prueben con distintas formas de marcar el contenid
 Para este ejercicio es particularmente adecuada la página de un libro de historia del arte, el cine o el diseño, pues contiene elementos distintivos que anotarse usando varias etiquetas diferentes.
 
 Deben subir la entrega a la carpeta de este repositorio con su nombre. Creen una subcarpeta llamada "entrega_1" y ahí suban un archivo "index.html" con su documento anotado.
+
+Aquí pueden ver los trabajos entregados:
+
+[Cristian](https://srsergiorodriguez.github.io/dataviz2020_1/cristian_baquero/entrega_1/), [Camila](https://srsergiorodriguez.github.io/dataviz2020_1/camila_barajas/entrega_1/), [Mónica](https://srsergiorodriguez.github.io/dataviz2020_1/monica_ruiz/Entrega_1/), [Andrés](https://srsergiorodriguez.github.io/dataviz2020_1/andres_polania/entrega_1/), [Teresa](https://srsergiorodriguez.github.io/dataviz2020_1/teresa_loayza/entrega_1/)
+
+### Entrega 2
+Esta entrega está compuesta por dos partes:
+
+—Objeto biográfico: primero, deben crear un objeto en JavaScript que contenga al menos diez (10) datos sobre ustedes. Los datos pueden ser cualquier cosa que se les ocurra, justamente la idea está en que piensen cómo podrían convertir datos biográficos a datos, pero procuren usar la cantidad más diversa de datatypes de JavaScript. Además, justo adelante de cada elemento del objeto, pongan un comentario que muestre qué tipo de dato de JavaScript es y qué tipo de dato "estadístico" es. Por ejemplo:
+
+```
+let objeto = {
+  dato1: 15 // Number Numérico
+  dato2: "mueble" // String Categórico
+}
+```
+Deben subir la entrega a la carpeta de este repositorio con su nombre a la carpeta "entrega_2"
+
+—Anotación base de datos: segundo, deben anotar tres datos adicionales a los ítems registrados en el archivo JSON que tienen en su carpeta "entrega_2". Recuerden que ese archivo JSON contiene datos sobre el "Catalogo Razonado de Beatriz González". Simplemente deben seguir el protocolo establecido en clase y deben añadir los datos extra a cada uno de los ítems.
+
+
+
+
+
+
