@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+       <title>Rashomon</title> 
+       <link href="https://fonts.googleapis.com/css?family=Lacquer|Shadows+Into+Light&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id=general>
+        <div id="Identificadores">
+             <h1>10. Rashomon</h1>
+             <h2 id="subtitulo">Akira Kurosawa</h2>
+             <h3 id="subtitulo">1950</h3>
+            
+        </div> 
+        <div id="Descripción">
+
+            <img width="200px" src="https://pics.filmaffinity.com/Rashomon-832258272-large.jpg"> 
+            <img width="400px" src="https://ml34uqn93noa.i.optimole.com/4YGhUw-qgc5xYuY/w:auto/h:auto/q:90/https://i0.wp.com/mwwollacott.com/wp-content/uploads/2019/04/Rashomon-Icon.jpg?fit=1200%2C675&ssl=1">
+            <img width="250px" src="https://images-na.ssl-images-amazon.com/images/I/81s06MX2xFL._SL1500_.jpg">
+            <h4>Director: Akira Kurosawa. Guión: Shinobu Hashimoto, Akira Kurosawa. Fotografía: Kazuo Miyagua. Música: Fumio Hayasaka. Principales interpretes: Toshiro Mifune, Masayuky Mori, Machiko Kyo, Takashi Shimura. Productora: Daiei. País: Japón.</h4>
+
+     
+                
+                <p>A Kurosawa le costó dos años convencer a un estudio japonés para que produjera Rashomon. 
+                    Originalmente presentada al estudio Toho, fue rechazada por considerarla demasiado arriesgada. 
+                    Posteriormente, ejecutivos de Daiei, donde acudió Kurosawa a continuación, se quejaron de que 
+                    no sabían de que se trataba y de que era demasiado corta. Kurosawa, servicialmente, le añadió 
+                    un principio y un final, 
+                    basándose en dos historias de Akutagawa: <a href="https://ciudadseva.com/texto/rashomon/">Rashomon</a> 
+                    y Yabu no naka.</p>
+
+                <p>En realidad, Kurosawa utilizó poco de la historia que le da título, y realizó un significativo 
+                    añadido a la segunda historia: el papel del plebeyo. Incluso después de haberla realizado, de 
+                    forma rápida y con poco presupuesto gracias a una pre-producción muy elaborada, los productores 
+                    no respondieron bien. El jefe de Daiei se salió del primer pase privado, y posteriormente, cuando 
+                    se situó en cuarto lugar en las recaudaciones de la productora, fue contratado un comentarista para 
+                    explicar al público cual era su tema.</p>
+
+                 <p>Probablemente Rashomon hubiera sido arrinconada si el Festival de Venecia no hubiera pedido 
+                     una película japonesa y el estudio, por recomendación de un italiano que la había visto en Japón 
+                     y en contra de su opinión, la remitió para su estudio. Rashomon consiguió el primer premio, sorprendiendo 
+                     a los japoneses que, por encima de todo, habían pensado que era demasiado esotérica para se entendida por 
+                     extranjeros, El éxito de Rashomon abrió los ojos de los occidentales ante el cine japonés y ayudo a 
+                     producir el deshielo de una relación entre dos culturas que había estado helada por los recuerdos de la 
+                     guerra.</p>
+
+                    <div id= "video">  
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Zqoyl2p8_lw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     </div>
+                <p>Es una película muy impresionista que trata el tema de la verdad: lo que pensamos que es 
+                    la verdad depende de cómo lo vemos, quien lo ve y quien lo cuenta. Literalmente se reciben 
+                    impresiones de la cámara a través de la luz, la imagen y el sonido. A los actores de Kurosawa 
+                    también se les incitó para que trabajaran pensando en ese estilo. Mientras que acabaran de preparar 
+                    un decorado, Kurosawa y sus actores vieron una película en 16mm sobre la jungla con una escena de un león.</p>
+    
+                 <q>Me di cuenta y le dije a Toshiro Mifune (el bandido) que eso era exactamente lo que quería.
+                      Al mismo tiempo More (el samurái) había visto una película de la jungla donde se veía un 
+                      leopardo negro. Fuimos a verla. Cuando el leopardo llego Machiko Kim (la mujer) estaba 
+                      tan perturbada que ocultó su rostro. Reconocí el gesto. Era exactamente lo que quería 
+                      para la joven esposa.</q>
+    
+                 <p>El trabajo de Kurosawa no solo tuvo una influencia fundamental en la nueva generación 
+                     de directores norteamericanos como Paul Shrader, Coppola, George Lucas y otros, sino que 
+                     muchas de sus películas fueron rehechas con gran éxito en forma de westerns norteamericanos.
+                    Rashomon se convirtió en una obra de teatro, The Outrage, y en una película protagonizada 
+                    por <a href="https://www.filmaffinity.com/es/film720646.html"> Paul Newman.</a> </p>
+    
+
+            </div>
+               <div id="fuente">
+                   <p class= "referencia">Fuente: Artola Ricardo. (1994) Las 100 mejores películas. Ed. Alianza ediciones el prado.
+
+                   </p>
+               </div>    
+        </div>
+    </body>
+    <style>
+h1, h2, h3 { 
+    font-size: 40px;
+    color: blue;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
+h4 {
+    color: green;
+
+}
+.referencia {
+    color:green;
+    font size: ;:10px;
+
+}
+#subtitulo {
+    font: 20px;
+    color: rgb(11, 133, 214);
+
+}
+#general {
+    width: 900px;
+    margin: auto;
+    border: darkgray solid 5px;
+
+}
+
+#video {
+   margin: 65px;
+}
+
+
+    </style>
+   
+</html>
