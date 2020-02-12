@@ -68,7 +68,7 @@ let objeto = {
 ```
 Deben subir la entrega a la carpeta de este repositorio con su nombre a la carpeta "entrega_2"
 
-—Anotación base de datos: segundo, deben anotar tres datos adicionales a los ítems registrados en el archivo JSON que tienen en su carpeta "entrega_2". Recuerden que ese archivo JSON contiene datos sobre el "Catalogo Razonado de Beatriz González". Simplemente deben seguir el protocolo establecido en clase y deben añadir los datos extra a cada uno de los ítems.
+—Anotación base de datos: segundo, deben anotar tres datos adicionales a los ítems registrados en el archivo JSON que tienen en su carpeta "entrega_2". Recuerden que ese archivo JSON contiene datos sobre el "Catálogo Razonado de Beatriz González". Simplemente deben seguir el protocolo establecido en clase y deben añadir los datos extra a cada uno de los ítems.
 
 
 
