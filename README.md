@@ -54,7 +54,7 @@ Deben subir la entrega a la carpeta de este repositorio con su nombre. Creen una
 Aquí pueden ver los trabajos entregados:
 
 [Cristian](https://srsergiorodriguez.github.io/dataviz2020_1/cristian_baquero/entrega_1/), [Camila](https://srsergiorodriguez.github.io/dataviz2020_1/camila_barajas/entrega_1/), [Mónica](https://srsergiorodriguez.github.io/dataviz2020_1/monica_ruiz/Entrega_1/), [Andrés](https://srsergiorodriguez.github.io/dataviz2020_1/andres_polania/entrega_1/), [Teresa](https://srsergiorodriguez.github.io/dataviz2020_1/teresa_loayza/entrega_1/)
-(https://github.com/srsergiorodriguez/dataviz2020_1/blob/master/docs/isis_beleno/Entrega_1/),[Isis]
+
 
 ### Entrega 2
 Esta entrega está compuesta por dos partes:
