@@ -11,7 +11,7 @@ Notas de la clase: ([enlace](https://docs.google.com/spreadsheets/d/1K_rnWf3lV4N
 
 ## Descargar carpetas de este repositorio
 
-Para descargar carpetas de este repositorio ingresa a [este sitio](http://kinolien.github.io/gitzip/) y, en el cuadro de texto que dice "GitHub repo root URL or subfolder URL", pon el enlace a la carpeta que quieres descagar. Por ejemplo, para descargar un folder con la plantilla de p5 en blanco se debe poner el enlace `https://github.com/srsergiorodriguez/dataviz2020_1/tree/master/plantillas/p5_en_blanco` dentro del cuadro de texto.
+Para descargar carpetas de este repositorio ingresa a [este sitio](http://kinolien.github.io/gitzip/) y, en el cuadro de texto que dice "GitHub repo root URL or subfolder URL", pon el enlace a la carpeta que quieres descagar. Por ejemplo, para descargar el folder con los datos de ejemplo del curso se debe poner el enlace `https://github.com/srsergiorodriguez/dataviz2020_1/tree/master/datos` dentro del cuadro de texto.
 
 ### Rúbricas para la evaluación de comentarios críticos
 Los comentarios críticos son escritos de aproximadamente mil palabras que deben poner en cuestión, extender o defender una postura con respecto a algún tema discutido en clase o planteado en una lectura. Las rúbricas de evaluación para los comentarios son las siguientes:
