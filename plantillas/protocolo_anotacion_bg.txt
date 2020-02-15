@@ -21,3 +21,11 @@
 @ATTRIBUTE type STRING CATEGORICAL {obra}
 @ATTRIBUTE color NUMERIC NUMBER[R,G,B]
 @ATTRIBUTE palette NUMERIC NUMBER [[R,G,B]x10]
+
+% Nuevos atributos (los nombres están sin tilde intencionalmente):
+
+@ATTRIBUTE firma CATEGORICAL BOOLEAN
+@ATTRIBUTE genero CATEGORICAL STRING {bodegón, retrato, paisaje}
+@ATTRIBUTE tristeza NUMERIC NUMBER {0.0-10.0}
+@ATTRIBUTE felicidad NUMERIC NUMBER {0.0-10.0}
+@ATTRIBUTE irritacion NUMERIC NUMBER {0.0-10.0}
