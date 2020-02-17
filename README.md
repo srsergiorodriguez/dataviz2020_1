@@ -55,7 +55,6 @@ Aquí pueden ver los trabajos entregados:
 
 [Cristian](https://srsergiorodriguez.github.io/dataviz2020_1/cristian_baquero/entrega_1/), [Camila](https://srsergiorodriguez.github.io/dataviz2020_1/camila_barajas/entrega_1/), [Mónica](https://srsergiorodriguez.github.io/dataviz2020_1/monica_ruiz/entrega_1/), [Andrés](https://srsergiorodriguez.github.io/dataviz2020_1/andres_polania/entrega_1/), [Teresa](https://srsergiorodriguez.github.io/dataviz2020_1/teresa_loayza/entrega_1/), [Isis](https://srsergiorodriguez.github.io/dataviz2020_1/isis_beleno/entrega_1/), [Ana María](https://srsergiorodriguez.github.io/dataviz2020_1/ana_maria_buitrago/entrega_1/)
 
-
 ### Entrega 2
 Esta entrega está compuesta por dos partes:
 
@@ -63,7 +62,7 @@ Esta entrega está compuesta por dos partes:
 
 ```
 let objeto = {
-  dato1: 15 // Number Numérico
+  dato1: 15, // Number Numérico
   dato2: "mueble" // String Categórico
 }
 ```
