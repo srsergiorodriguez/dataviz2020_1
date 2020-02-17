@@ -78,7 +78,12 @@
           116,
           52
         ]
-      ]
+      ],
+    "firma": "true",
+    "genero": "retrato",
+    "tristeza": 3.0,
+    "felicidad": 7.0,
+    "irritacion": 6.5,
     },
     {
       "id": 91,
@@ -171,7 +176,12 @@
           196,
           188
         ]
-      ]
+      ],
+    "firma": "true",
+    "genero": "bodegón",
+    "tristeza": 7.5,
+    "felicidad": 2.0,
+    "irritacion": 3.0,
     },
     {
       "id": 725,
@@ -250,7 +260,12 @@
           220,
           220
         ]
-      ]
+      ],
+    "firma": "fasle",
+    "genero": "retrato",
+    "tristeza": 1.0,
+    "felicidad": 2.5,
+    "irritacion": 8.5,
     },
     {
       "id": 613,
@@ -334,7 +349,12 @@
           172,
           172
         ]
-      ]
+      ],
+    "firma": "false",
+    "genero": "retrato",
+    "tristeza": 8.0,
+    "felicidad": 1.0,
+    "irritacion": 5.0,
     },
     {
       "id": 653,
@@ -413,7 +433,12 @@
           112,
           108
         ]
-      ]
+      ],
+    "firma": "false",
+    "genero": "paisaje",
+    "tristeza": 2.0,
+    "felicidad": 6.0,
+    "irritacion": 2.0,
     },
     {
       "id": 1647,
@@ -494,7 +519,12 @@
           44,
           43
         ]
-      ]
+      ],
+    "firma": "false",
+    "genero": "retrato",
+    "tristeza": 3.0,
+    "felicidad": 2.0,
+    "irritacion": 9.5,
     },
     {
       "id": 1666,
@@ -575,7 +605,12 @@
           204,
           188
         ]
-      ]
+      ],
+    "firma": "false",
+    "genero": "retrato",
+    "tristeza": 5.0,
+    "felicidad": 1.0,
+    "irritacion": 3.0,
     },
     {
       "id": 1503,
@@ -656,7 +691,12 @@
           216,
           212
         ]
-      ]
+      ],
+    "firma": "true",
+    "genero": "retrato",
+    "tristeza": 2.0,
+    "felicidad": 5.0,
+    "irritacion": 4.5,
     },
     {
       "id": 994,
@@ -737,7 +777,12 @@
           37,
           28
         ]
-      ]
+      ],
+    "firma": "true",
+    "genero": "retrato",
+    "tristeza": 7.5,
+    "felicidad": 1.0,
+    "irritacion": 2.5,
     },
     {
       "id": 947,
@@ -818,7 +863,12 @@
           124,
           124
         ]
-      ]
+      ],
+    "firma": "true",
+    "genero": "retrato",
+    "tristeza": 7.0,
+    "felicidad": 2.0,
+    "irritacion": 7.5,
     },
     {
       "id": 1051,
@@ -898,7 +948,12 @@
           214,
           215
         ]
-      ]
+      ],
+    "firma": "falase",
+    "genero": "retrato",
+    "tristeza": 7.0,
+    "felicidad": 1.0,
+    "irritacion": 3.5,
     },
     {
       "id": 1175,
@@ -979,7 +1034,12 @@
           20,
           20
         ]
-      ]
+      ],
+    "firma": "true",
+    "genero": "retrato",
+    "tristeza": 8.5,
+    "felicidad": 1.0,
+    "irritacion": 1.5,
     },
     {
       "id": 1225,
@@ -1060,7 +1120,12 @@
           164,
           128
         ]
-      ]
+      ],
+    "firma": "false",
+    "genero": "retrato",
+    "tristeza": 3.0,
+    "felicidad": 5.0,
+    "irritacion": 2.5,
     },
     {
       "id": 1194,
@@ -1140,7 +1205,12 @@
           140,
           164
         ]
-      ]
+      ],
+    "firma": "false",
+    "genero": "retrato",
+    "tristeza": 1.0,
+    "felicidad": 6.0,
+    "irritacion": 1.5,
     },
     {
       "id": 1810,
@@ -1227,7 +1297,12 @@
           156,
           108
         ]
-      ]
+      ],
+    "firma": "false",
+    "genero": "retrato",
+    "tristeza": 1.0,
+    "felicidad": 1.0,
+    "irritacion": 9.5,
     },
     {
       "id": 2159,
@@ -1303,7 +1378,12 @@
           156,
           156
         ]
-      ]
+      ],
+    "firma": "true",
+    "genero": "retrato",
+    "tristeza": 7.5,
+    "felicidad": 2.0,
+    "irritacion": 6.5,
     },
     {
       "id": 1698,
@@ -1383,7 +1463,12 @@
           202,
           212
         ]
-      ]
+      ],
+    "firma": "false",
+    "genero": "retrato",
+    "tristeza": 7.0,
+    "felicidad": 2.0,
+    "irritacion": 5.5,
     }
   ]
 }
