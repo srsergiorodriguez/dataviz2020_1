@@ -9,6 +9,8 @@ Cronograma de la clase: ([enlace](https://docs.google.com/spreadsheets/d/1Dwswmp
 
 Notas de la clase: ([enlace](https://docs.google.com/spreadsheets/d/1K_rnWf3lV4N5knn7pLpzE9ClJoxl-ljuVs3BCbWUAt0/edit?usp=sharing))
 
+Retroalimentación a comentarios ([enlace](https://drive.google.com/drive/folders/1Ji4qvDFIf8nAookTMyWtz7AHGA62kT1W?usp=sharing))
+
 ## Descargar carpetas de este repositorio
 
 Para descargar carpetas de este repositorio ingresa a [este sitio](http://kinolien.github.io/gitzip/) y, en el cuadro de texto que dice "GitHub repo root URL or subfolder URL", pon el enlace a la carpeta que quieres descagar. Por ejemplo, para descargar el folder con los datos de ejemplo del curso se debe poner el enlace `https://github.com/srsergiorodriguez/dataviz2020_1/tree/master/datos` dentro del cuadro de texto.
