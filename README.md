@@ -9,7 +9,7 @@ Cronograma de la clase: ([enlace](https://docs.google.com/spreadsheets/d/1Dwswmp
 
 Notas de la clase: ([enlace](https://docs.google.com/spreadsheets/d/1K_rnWf3lV4N5knn7pLpzE9ClJoxl-ljuVs3BCbWUAt0/edit?usp=sharing))
 
-Retroalimentación a comentarios ([enlace](https://drive.google.com/drive/folders/1Ji4qvDFIf8nAookTMyWtz7AHGA62kT1W?usp=sharing))
+Retroalimentación a comentarios: ([enlace](https://drive.google.com/drive/folders/1Ji4qvDFIf8nAookTMyWtz7AHGA62kT1W?usp=sharing))
 
 ## Descargar carpetas de este repositorio
 
