@@ -2,7 +2,7 @@
     {
       "id": 112,
       "firma": false, 
-       "genero": "ilustración",
+       "genero": "retrato",
        "felicidad": 8.0, 
        "irritacion": 1.0, 
        "tristeza": 1.0,
@@ -179,7 +179,7 @@
       "id": 13,
       
       "firma": true, 
-      "genero": "naturaleza muerta, estilo figurativo",
+      "genero": "bodegón",
       "felicidad": 1.0, 
       "irritacion": 1.0, 
       "tristeza": 1.0,
@@ -264,7 +264,7 @@
       "id": 629,
       
       "firma": false, 
-      "genero": "Boceto, estilo figurativo",
+      "genero": "Retrato",
       "felicidad": 1.0, 
       "irritacion": 9.0, 
       "tristeza": 9.0,
@@ -351,7 +351,7 @@
       "id": 705,
 
       "firma": false, 
-      "genero": "Retrato artesanal",
+      "genero": "Retrato",
       "felicidad": 9.0, 
       "irritacion": 2.0, 
       "tristeza": 3.0,
@@ -439,7 +439,7 @@
       "id": 619,
 
       "firma": false, 
-      "genero": "Boceto estilo figurativo",
+      "genero": "Retrato",
       "felicidad": 4.0, 
       "irritacion": 4.0, 
       "tristeza": 9.0,
@@ -527,7 +527,7 @@
       "id": 2179,
 
       "firma": true, 
-      "genero": "Ilustración_boceto",
+      "genero": "Retrato",
       "felicidad": 9.0, 
       "irritacion": 9.0, 
       "tristeza": 1.0,
@@ -610,7 +610,7 @@
       "id": 1575,
 
       "firma": true, 
-      "genero": "Ilustración",
+      "genero": "Retrato",
       "felicidad": 7.0, 
       "irritacion": 7.0, 
       "tristeza": 7.0,
@@ -893,7 +893,7 @@
       "id": 989,
 
       "firma": true, 
-      "genero": "Ilustración",
+      "genero": "Retrato",
       "felicidad": 0.0, 
       "irritacion": 9.0, 
       "tristeza": 7.0,
@@ -1005,7 +1005,7 @@
       "id": 1078,
 
       "firma": true, 
-      "genero": "Ilustración, estilo figurativo",
+      "genero": "Retrato",
       "felicidad": 0.0, 
       "irritacion": 9.0, 
       "tristeza": 9.0,
@@ -1093,7 +1093,7 @@
       "id": 1142,
 
       "firma": false, 
-      "genero": "Boceto_ilustración",
+      "genero": "retrato",
       "felicidad": 1.0, 
       "irritacion": 7.0, 
       "tristeza": 8.0,
@@ -1180,7 +1180,7 @@
       "id": 1842,
 
       "firma": false, 
-      "genero": "Ilustración_boceto",
+      "genero": "retrato",
       "felicidad": 0.0, 
       "irritacion": 10.0, 
       "tristeza": 9.0,
@@ -1356,7 +1356,7 @@
       "id": 1712,
 
       "firma": true, 
-      "genero": "colección bocetos",
+      "genero": "retratos",
       "felicidad": 9.0, 
       "irritacion": 2.0, 
       "tristeza": 2.0,
