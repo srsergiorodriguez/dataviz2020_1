@@ -78,7 +78,11 @@
           220,
           220
         ]
-      ]
+      ],
+      "genero": "retrato",
+      "tristeza": 10,
+      "felicidad": 0,
+      "indiferencia": 0
     },
     {
       "id": 28,
@@ -88,7 +92,11 @@
       "date": 1960,
       "rights_holder": "María Fernanda Moreno González-Jorge González Aranda, Bucaramanga",
       "type": "obra",
-      "format": []
+      "format": [],
+      "genero": "bodegón",
+      "tristeza": 8,
+      "felicidad": 3,
+      "indiferencia": 2
     },
     {
       "id": 111,
@@ -169,7 +177,11 @@
           204,
           204
         ]
-      ]
+      ],
+      "genero": "retrato",
+      "tristeza": 5,
+      "felicidad": 4,
+      "indiferencia": 7
     },
     {
       "id": 689,
@@ -191,7 +203,7 @@
       "contributor": "Juan Rodríguez Varón",
       "rights_holder": "Múltiples propietarios: Beatriz González, Banco de la República",
       "part_of": "2004 Beatriz González Obra gráfica Museo de historia antropología y arte Universidad de Puerto Rico, San Juan",
-      "referenced_by": "2004 Brochure Beatriz González Obra gráfica Museo de historia antropología y arte Universidad de Puerto Rico San Juan \r\n2004 Catálogo Beatriz González Obra gráfica Museo de historia antropología y arte Universidad de Puerto Rico, San Juan",
+      "referenced_by": "2004 Brochure Beatriz González Obra gráfica Museo de historia antropología y arte Universidad de Puerto Rico San Juan \r\n2004 Catálogo Beatriz González Obra gráfica Museo de historia antropología y arte Universidad de Puerto Rico, San Juan",
       "references": "BG_FUENTES_LaFelicidadPabloLeyva_Mecanico.tiff,,BG_FUENTES_2_LaFelicidadPabloLeyva_Mecanico.tiff",
       "type": "obra",
       "color": [
@@ -250,7 +262,11 @@
           100,
           84
         ]
-      ]
+      ],
+      "genero": "retrato",
+      "tristeza": 8,
+      "felicidad": 4,
+      "indiferencia": 2
     },
     {
       "id": 738,
@@ -331,7 +347,11 @@
           172,
           160
         ]
-      ]
+      ],
+      "genero": "retrato",
+      "tristeza": 5,
+      "felicidad": 4,
+      "indiferencia": 1
     },
     {
       "id": 596,
@@ -354,8 +374,8 @@
       ],
       "contributor": "Juan Rodríguez Varón",
       "rights_holder": "Múltiples propietarios: Beatriz González",
-      "part_of": "2016 Beatriz González El Segundo Original, Museo La tertulia, Cali\r\n2015 Beatriz González: el segundo original. Universidad de los Andes.\r\n2011 Beatriz González La Comedia y la Tragedia MAMM, Medellín\r\n1996 Treinta años de la obra gráfica de Beatriz González, Biblioteca Luis Angel Arango\r\n1984 Beatriz González Exposición Retrospectiva 1962-1984 Museo de Arte Moderno de Bogotá\r\n1976 Retrospectiva (un inventario) Museo de La Tertulia, Cali\r\n1974 La oferta del siglo, Selección de Oro de la pintura universal Galería Belarca, Bogotá; Museo de Arte de la Universidad Nacional, Bogotá; Galería de Arte Álvaro Barrios, Barranquilla\r\n1973 II Bienal de artes gráficas de Cali",
-      "referenced_by": "1988  Beatriz González Una pintora de Provincia Carlos Valencia Editores",
+      "part_of": "2016 Beatriz González El Segundo Original, Museo La tertulia, Cali\r\n2015 Beatriz González: el segundo original. Universidad de los Andes.\r\n2011 Beatriz González La Comedia y la Tragedia MAMM, Medellín\r\n1996 Treinta años de la obra gráfica de Beatriz González, Biblioteca Luis Angel Arango\r\n1984 Beatriz González Exposición Retrospectiva 1962-1984 Museo de Arte Moderno de Bogotá\r\n1976 Retrospectiva (un inventario) Museo de La Tertulia, Cali\r\n1974 La oferta del siglo, Selección de Oro de la pintura universal Galería Belarca, Bogotá; Museo de Arte de la Universidad Nacional, Bogotá; Galería de Arte Álvaro Barrios, Barranquilla\r\n1973 II Bienal de artes gráficas de Cali",
+      "referenced_by": "1988  Beatriz González Una pintora de Provincia Carlos Valencia Editores",
       "references": "citaninos 1.tiff",
       "type": "obra",
       "color": [
@@ -414,7 +434,11 @@
           205,
           213
         ]
-      ]
+      ],
+      "genero": "retrato",
+      "tristeza": 2,
+      "felicidad": 9,
+      "indiferencia": 1
     },
     {
       "id": 1512,
@@ -495,7 +519,11 @@
           108,
           114
         ]
-      ]
+      ],
+      "genero": "retrato",
+      "tristeza": 0,
+      "felicidad": 10,
+      "indiferencia": 1
     },
     {
       "id": 1676,
@@ -576,7 +604,11 @@
           169,
           118
         ]
-      ]
+      ],
+      "genero": "retrato",
+      "tristeza": 0,
+      "felicidad": 10,
+      "indiferencia": 7
     },
     {
       "id": 1560,
@@ -658,7 +690,11 @@
           212,
           212
         ]
-      ]
+      ],
+      "genero": "retrato",
+      "tristeza": 0,
+      "felicidad": 10,
+      "indiferencia": 2
     },
     {
       "id": 1072,
@@ -739,7 +775,11 @@
           229,
           206
         ]
-      ]
+      ],
+      "genero": "retrato",
+      "tristeza": 10,
+      "felicidad": 0,
+      "indiferencia": 2
     },
     {
       "id": 984,
@@ -820,7 +860,11 @@
           148,
           167
         ]
-      ]
+      ],
+      "genero": "retrato",
+      "tristeza": 10,
+      "felicidad": 0,
+      "indiferencia": 1
     },
     {
       "id": 956,
@@ -901,7 +945,11 @@
           100,
           88
         ]
-      ]
+      ],
+      "genero": "retrato",
+      "tristeza": 10,
+      "felicidad": 0,
+      "indiferencia": 0
     },
     {
       "id": 1093,
@@ -987,7 +1035,11 @@
           130,
           84
         ]
-      ]
+      ],
+      "genero": "bodegón",
+      "tristeza": 10,
+      "felicidad": 0,
+      "indiferencia": 0
     },
     {
       "id": 1191,
@@ -1067,7 +1119,11 @@
           204,
           204
         ]
-      ]
+      ],
+      "genero": "retrato",
+      "tristeza": 4,
+      "felicidad": 0,
+      "indiferencia": 0
     },
     {
       "id": 1073,
@@ -1148,7 +1204,11 @@
           106,
           80
         ]
-      ]
+      ],
+      "genero": "retrato",
+      "tristeza": 4,
+      "felicidad": 5,
+      "indiferencia": 3
     },
     {
       "id": 1730,
@@ -1166,7 +1226,11 @@
       "part_of": "2012 Empatía Galería Casas Riegner ,",
       "referenced_by": "2012 Catálogo ArtBO 2012 Galería Alonso Garcés",
       "references": "23 Diciembre 2012.tif",
-      "type": "obra"
+      "type": "obra",
+      "genero": "retrato",
+      "tristeza": 10,
+      "felicidad": 2,
+      "indiferencia": 8
     },
     {
       "id": 1702,
@@ -1247,7 +1311,11 @@
           100,
           68
         ]
-      ]
+      ],
+      "genero": "retrato",
+      "tristeza": 10,
+      "felicidad": 2,
+      "indiferencia": 8
     },
     {
       "id": 1820,
@@ -1328,7 +1396,11 @@
           116,
           92
         ]
-      ]
+      ],
+      "genero": "retrato",
+      "tristeza": 8,
+      "felicidad": 2,
+      "indiferencia": 0
     }
   ]
 }
