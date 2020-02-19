@@ -1,0 +1,388 @@
+
+
+// var collection = [];
+
+let personaA = {
+	nombre: "Rodolfo Polanía Cortes", // 
+	edad: 74,
+	fecha-nacimiento: 1943,
+	estatura: 167 // INTEGER
+	rol: "padre", // STRING
+	foto-url: "", // STRING
+	formacion: // 
+		[
+		{tipo-educacion: "pregrado", // STRING
+		titulo: "Economista", // STRING
+		institucion: "Universidad Santo Tomás", // STRING
+		ciudad: "Bogotá", // STRING
+		fecha-inicio: 1973 // INTEGER
+		fecha-fin: 1973 // INTEGER
+		},
+		{tipo-educacion: "Formal",
+		titulo: "Bachiller",
+		institucion: "Colegio de ",
+		ciudad: "",
+		fecha-inicio: 1973 // INTEGER
+		fecha-fin: 1973 // INTEGER
+		},
+		]
+	tipo-relacion: "familiar", // STRING
+	relacion-poder: "asimétrica" // STRING asimétrica | simétrica
+	adyacencia: 1, // INTEGER
+};
+
+
+let personaB = {
+	nombre: "Martha Lucia Reyes Gonzales", // 
+	edad: 60,
+	fecha-nacimiento: 1958,
+	estatura: 160 // INTEGER
+	rol: "madre", // STRING
+	foto-url: "", // STRING
+	formacion: // 
+		[
+		{tipo-educacion: "Pregrado", // STRING
+		titulo: "Ingeniera de Sistemas", // STRING
+		institucion: "Universidad Distrital", // STRING
+		ciudad: "Bogotá", // STRING
+		fecha-inicio: xxx // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		{tipo-educacion: "Especialización", // STRING
+		titulo: "Ingeniera de Sistemas", // STRING
+		institucion: "Universidad Distrital", // STRING
+		ciudad: "Bogotá", // STRING
+		fecha-inicio: xxx // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		{tipo-educacion: "Formal",
+		titulo: "Bachiller",
+		institucion: "Colegio de ",
+		ciudad: "",
+		fecha-inicio: xxx // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		]
+	tipo-relacion: "familiar", // STRING
+	relacion-poder: "simétrica" // STRING asimétrica | simétrica
+	adyacencia: 0, // INTEGER
+};
+
+let personaC = {
+	nombre: "David Polanía Reyes", // 
+	edad: 36,
+	fecha-nacimiento: 1980,
+	estatura: 175 // INTEGER
+	rol: "Hermano Mayor", // STRING
+	foto-url: "", // STRING
+	formacion: // 
+		[
+		{tipo-educacion: "Pregrado", // STRING
+		titulo: "Ingeniero Industrial", // STRING
+		institucion: "Universidad de los Andes", // STRING
+		ciudad: "Bogotá", // STRING
+		fecha-inicio: 2000 // INTEGER
+		fecha-fin: 2005 // INTEGER
+		},
+		{tipo-educacion: "Formal",
+		titulo: "Bachiller",
+		institucion: "Colegio Champagnat",
+		ciudad: "Bogotá",
+		fecha-inicio:  // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		]
+	tipo-relacion: "familiar", // STRING
+	relacion-poder: "asimétrica" // STRING asimétrica | simétrica
+	adyacencia: 1, // INTEGER
+};
+
+let personaD = {
+	nombre: "Sandra Polanía Reyes", // 
+	edad: 39,
+	fecha-nacimiento: 1978,
+	estatura: 170 // INTEGER
+	rol: "Hermana Mayor", // STRING
+	foto-url: "", // STRING
+	formacion: // 
+		[
+		{tipo-educacion: "Pregrado", // STRING
+		titulo: "Economista", // STRING
+		institucion: "Universidad de los Andes", // STRING
+		ciudad: "Bogotá", // STRING
+		fecha-inicio: 1999 // INTEGER
+		fecha-fin: 2003 // INTEGER
+		},
+		{tipo-educacion: "Formal",
+		titulo: "Bachiller",
+		institucion: "Colegio Nuestra Señora del Pilar",
+		ciudad: "Bogotá",
+		fecha-inicio: 1990 // INTEGER
+		fecha-fin: 1998 // INTEGER
+		},
+		
+		{tipo-educacion: "Maestria",
+		titulo: "Maestria en Economia",
+		institucion: "Universidad de los Andes",
+		ciudad: "Bogotá",
+		fecha-inicio: 2003, // INTEGER
+		fecha-fin: 2005, // INTEGER
+		},
+		
+		{tipo-educacion: "Postgrado",
+		titulo: "PHD Economia",
+		institucion: "University Of Siena",
+		ciudad: "Siena",
+		fecha-inicio: 2007, // INTEGER
+		fecha-fin: 2015, // INTEGER
+		},
+		{tipo-educacion: "Postgrado",
+		titulo: "PHD Economia",
+		institucion: "University College London",
+		ciudad: "Londres",
+		fecha-inicio: 2009, // INTEGER
+		fecha-fin: 2015, // INTEGER
+		},
+		]
+	tipo-relacion: "familiar", // STRING
+	relacion-poder: "asimétrica" // STRING asimétrica | simétrica
+	adyacencia: 2, // INTEGER
+};
+
+let personaE = {
+	nombre: "Diana Polanía Reyes", // 
+	edad: 36,
+	fecha-nacimiento: 1982,
+	estatura: 160 // INTEGER
+	rol: "Hermana", // STRING
+	foto-url: "", // STRING
+	formacion: // 
+		[
+		{tipo-educacion: "Espcialización", // STRING
+		titulo: "Ginecología y Obstetricia", // STRING
+		institucion: "Potificia Universidad Javeriana", // STRING
+		ciudad: "Bogotá", // STRING
+		fecha-inicio: xxx // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		{tipo-educacion: "Pregrado", // STRING
+		titulo: "Médica General", // STRING
+		institucion: "Potificia Universidad Javeriana", // STRING
+		ciudad: "Bogotá", // STRING
+		fecha-inicio: xxx // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		{tipo-educacion: "Formal",
+		titulo: "Bachiller",
+		institucion: "Colegio Nuestra Señora del Pilar",
+		ciudad: "Bogotá",
+		fecha-inicio: xxx // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		]
+	tipo-relacion: "familiar", // STRING
+	relacion-poder: "asimétrica" // STRING asimétrica | simétrica
+	adyacencia: 1, // INTEGER
+};
+
+let personaF = {
+	nombre: "Diana Gómez", // 
+	edad: 30,
+	fecha-nacimiento: 1989,
+	estatura: 164 // INTEGER
+	rol: "Mejor Amiga", // STRING
+	foto-url: "", // STRING
+	formacion: // 
+		[
+		{tipo-educacion: "Maestría", // STRING
+		titulo: "Diseño de Moda", // STRING
+		institucion: "Universida de Barcelona", // STRING
+		ciudad: "Bogotá", // STRING
+		fecha-inicio: xxx // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		{tipo-educacion: "Pregrado", // STRING
+		titulo: "Diseño", // STRING
+		institucion: "Universidad de los Andes", // STRING
+		ciudad: "Bogotá", // STRING
+		fecha-inicio: xxx // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		{tipo-educacion: "Formal",
+		titulo: "Bachiller",
+		institucion: "Colegio Hijas de Cristo Rey",
+		ciudad: "Bogotá",
+		fecha-inicio: xxx // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		]
+	tipo-relacion: "amigo", // STRING
+	relacion-poder: "simétrica" // STRING asimétrica | simétrica
+	adyacencia: 0, // INTEGER
+};
+
+let personaG = {
+	nombre: "Felipe Zapata", // 
+	edad: 30,
+	fecha-nacimiento: 1988,
+	estatura: 164 // INTEGER
+	rol: "Mejor Amiga", // STRING
+	foto-url: "", // STRING
+	formacion: // 
+		[
+		{tipo-educacion: "Maestría", // STRING
+		titulo: "Arte e Historia", // STRING
+		institucion: "Universida de xxx", // STRING
+		ciudad: "xxx", // STRING
+		fecha-inicio: xxx // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		{tipo-educacion: "Pregrado", // STRING
+		titulo: "Maestro en Arte", // STRING
+		institucion: "Universidad de los Andes", // STRING
+		ciudad: "Bogotá", // STRING
+		fecha-inicio: xxx // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		{tipo-educacion: "Formal",
+		titulo: "Bachiller",
+		institucion: "Agustiniando Norte",
+		ciudad: "Bogotá",
+		fecha-inicio: xxx // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		]
+	tipo-relacion: "amigo", // STRING
+	relacion-poder: "simétrica" // STRING asimétrica | simétrica
+	adyacencia: 0, // INTEGER
+};
+
+let personaG = {
+	nombre: "Andrés Felipe Esteban", // 
+	edad: 31,
+	fecha-nacimiento: 1988,
+	estatura: 172 // INTEGER
+	rol: "Mejor Amigo", // STRING
+	foto-url: "", // STRING
+	formacion: // 
+		[
+		{tipo-educacion: "Maestría", // STRING
+		titulo: "Derecho Internacional", // STRING
+		institucion: "Universida de los Andes", // STRING
+		ciudad: "Bogotá", // STRING
+		fecha-inicio: xxx // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		{tipo-educacion: "Pregrado", // STRING
+		titulo: "Maestro en Arte", // STRING
+		institucion: "Universidad de los Andes", // STRING
+		ciudad: "Bogotá", // STRING
+		fecha-inicio: xxx // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		{tipo-educacion: "Formal",
+		titulo: "Bachiller",
+		institucion: "Agustiniando Norte",
+		ciudad: "Bogotá",
+		fecha-inicio: xxx // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		]
+	tipo-relacion: "amigo", // STRING
+	relacion-poder: "simétrica" // STRING asimétrica | simétrica
+	adyacencia: 0, // INTEGER
+};
+
+let personaH = {
+	nombre: "Sebastian Rodriguez", // 
+	edad: 31,
+	fecha-nacimiento: 1988,
+	estatura: 172 // INTEGER
+	rol: "Mejor Amigo", // STRING
+	foto-url: "", // STRING
+	formacion: // 
+		[
+		{tipo-educacion: "Maestría", // STRING
+		titulo: "Diseño Gráfico", // STRING
+		institucion: "Universida de los Andes", // STRING
+		ciudad: "Bogotá", // STRING
+		fecha-inicio: xxx // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		{tipo-educacion: "Pregrado", // STRING
+		titulo: "Diseño Industrial", // STRING
+		institucion: "Pontificio Universidad Javeriana", // STRING
+		ciudad: "Bogotá", // STRING
+		fecha-inicio: xxx // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		{tipo-educacion: "Formal",
+		titulo: "Bachiller",
+		institucion: "Agustiniando Norte",
+		ciudad: "Bogotá",
+		fecha-inicio: xxx // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		]
+	tipo-relacion: "amigo", // STRING
+	relacion-poder: "simétrica" // STRING asimétrica | simétrica
+	adyacencia: 0, // INTEGER
+};
+
+let personaI = {
+	nombre: "Sebastian Londoño", // 
+	edad: 27,
+	fecha-nacimiento: 1988,
+	estatura: 176 // INTEGER
+	rol: "Mejor Amigo", // STRING
+	foto-url: "", // STRING
+	formacion: // 
+		[
+		{tipo-educacion: "Pregrado", // STRING
+		titulo: "Diseño", // STRING
+		institucion: "Universidad de los Andes", // STRING
+		ciudad: "Bogotá", // STRING
+		fecha-inicio: xxx // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		{tipo-educacion: "Formal",
+		titulo: "Bachiller",
+		institucion: "Agustiniando Norte",
+		ciudad: "Bogotá",
+		fecha-inicio: xxx // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		]
+	tipo-relacion: "amigo", // STRING
+	relacion-poder: "simétrica" // STRING asimétrica | simétrica
+	adyacencia: 0, // INTEGER
+};
+
+let personaJ = {
+	nombre: "Paola Vanegas", // 
+	edad: 26,
+	fecha-nacimiento: 1993,
+	estatura: 162 // INTEGER
+	rol: "Amiga", // STRING
+	foto-url: "", // STRING
+	formacion: // 
+		[
+		{tipo-educacion: "Pregrado", // STRING
+		titulo: "Diseño", // STRING
+		institucion: "Universidad de los Andes", // STRING
+		ciudad: "Bogotá", // STRING
+		fecha-inicio: xxx // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		{tipo-educacion: "Formal",
+		titulo: "Bachiller",
+		institucion: "",
+		ciudad: "Bogotá",
+		fecha-inicio: xxx // INTEGER
+		fecha-fin: xxx // INTEGER
+		},
+		]
+	tipo-relacion: "amigo", // STRING
+	relacion-poder: "simétrica" // STRING asimétrica | simétrica
+	adyacencia: 0, // INTEGER
+};
