@@ -1,4 +1,4 @@
-let objeto ={
+let mrm ={
     nombre: "Mónica", // String
     apellidos: "Ruiz Muñoz", // String
     mascotas: ["Anouk", "Tinka", "Liz"], // Array
