@@ -1,0 +1,12 @@
+let objeto ={
+    nombre: "Mónica", // String
+    apellidos: "Ruiz Muñoz", // String
+    mascotas: ["Anouk", "Tinka", "Liz"], // Array
+    deportes: ["natación", "atletismo"], //Array
+    es_colombiana: true, // Boolean
+    anos_empresa: 10, // Number
+    estilo_cabello: "corto", // String
+    hermana: "Sonia", // String
+    Sobrinos: 3, // Number
+    come_carne: false // Boolean
+}
