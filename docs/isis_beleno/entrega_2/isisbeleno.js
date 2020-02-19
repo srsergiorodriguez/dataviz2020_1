@@ -1,8 +1,8 @@
 let IsisBeleno = {
-    genero: "mujer", // String categóric
+    genero: "mujer", // String
     edad: 40, // number
     identificacion: 22493628, // number
-    profesion: "comunicadora", // String categórico
+    profesion: "comunicadora", // String 
     codigo_postal: 111211, // number
     protesis: false, // boolean
     peso: "68 kilogramos", // string
