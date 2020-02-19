@@ -83,7 +83,7 @@
     "genero": "retrato",
     "tristeza": 3.0,
     "felicidad": 7.0,
-    "irritacion": 6.5,
+    "irritacion": 6.5
     },
     {
       "id": 91,
@@ -181,7 +181,7 @@
     "genero": "bodegón",
     "tristeza": 7.5,
     "felicidad": 2.0,
-    "irritacion": 3.0,
+    "irritacion": 3.0
     },
     {
       "id": 725,
@@ -265,7 +265,7 @@
     "genero": "retrato",
     "tristeza": 1.0,
     "felicidad": 2.5,
-    "irritacion": 8.5,
+    "irritacion": 8.5
     },
     {
       "id": 613,
@@ -354,7 +354,7 @@
     "genero": "retrato",
     "tristeza": 8.0,
     "felicidad": 1.0,
-    "irritacion": 5.0,
+    "irritacion": 5.0
     },
     {
       "id": 653,
@@ -438,7 +438,7 @@
     "genero": "paisaje",
     "tristeza": 2.0,
     "felicidad": 6.0,
-    "irritacion": 2.0,
+    "irritacion": 2.0
     },
     {
       "id": 1647,
@@ -524,7 +524,7 @@
     "genero": "retrato",
     "tristeza": 3.0,
     "felicidad": 2.0,
-    "irritacion": 9.5,
+    "irritacion": 9.5
     },
     {
       "id": 1666,
@@ -610,7 +610,7 @@
     "genero": "retrato",
     "tristeza": 5.0,
     "felicidad": 1.0,
-    "irritacion": 3.0,
+    "irritacion": 3.0
     },
     {
       "id": 1503,
@@ -696,7 +696,7 @@
     "genero": "retrato",
     "tristeza": 2.0,
     "felicidad": 5.0,
-    "irritacion": 4.5,
+    "irritacion": 4.5
     },
     {
       "id": 994,
@@ -782,7 +782,7 @@
     "genero": "retrato",
     "tristeza": 7.5,
     "felicidad": 1.0,
-    "irritacion": 2.5,
+    "irritacion": 2.5
     },
     {
       "id": 947,
@@ -868,7 +868,7 @@
     "genero": "retrato",
     "tristeza": 7.0,
     "felicidad": 2.0,
-    "irritacion": 7.5,
+    "irritacion": 7.5
     },
     {
       "id": 1051,
@@ -953,7 +953,7 @@
     "genero": "retrato",
     "tristeza": 7.0,
     "felicidad": 1.0,
-    "irritacion": 3.5,
+    "irritacion": 3.5
     },
     {
       "id": 1175,
@@ -1039,7 +1039,7 @@
     "genero": "retrato",
     "tristeza": 8.5,
     "felicidad": 1.0,
-    "irritacion": 1.5,
+    "irritacion": 1.5
     },
     {
       "id": 1225,
@@ -1125,7 +1125,7 @@
     "genero": "retrato",
     "tristeza": 3.0,
     "felicidad": 5.0,
-    "irritacion": 2.5,
+    "irritacion": 2.5
     },
     {
       "id": 1194,
@@ -1210,7 +1210,7 @@
     "genero": "retrato",
     "tristeza": 1.0,
     "felicidad": 6.0,
-    "irritacion": 1.5,
+    "irritacion": 1.5
     },
     {
       "id": 1810,
@@ -1302,7 +1302,7 @@
     "genero": "retrato",
     "tristeza": 1.0,
     "felicidad": 1.0,
-    "irritacion": 9.5,
+    "irritacion": 9.5
     },
     {
       "id": 2159,
@@ -1383,7 +1383,7 @@
     "genero": "retrato",
     "tristeza": 7.5,
     "felicidad": 2.0,
-    "irritacion": 6.5,
+    "irritacion": 6.5
     },
     {
       "id": 1698,
@@ -1468,7 +1468,7 @@
     "genero": "retrato",
     "tristeza": 7.0,
     "felicidad": 2.0,
-    "irritacion": 5.5,
+    "irritacion": 5.5
     }
   ]
 }
