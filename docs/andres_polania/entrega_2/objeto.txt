@@ -25,7 +25,7 @@ let personaA = {
 		fecha-inicio: 1973 // INTEGER
 		fecha-fin: 1973 // INTEGER
 		},
-		]
+		],
 	tipo-relacion: "familiar", // STRING
 	relacion-poder: "asimétrica" // STRING asimétrica | simétrica
 	adyacencia: 1, // INTEGER
@@ -34,33 +34,33 @@ let personaA = {
 
 let personaB = {
 	nombre: "Martha Lucia Reyes Gonzales", // 
-	edad: 60,
-	fecha-nacimiento: 1958,
+	edad: 63,
+	fecha-nacimiento: 1957,
 	estatura: 160 // INTEGER
 	rol: "madre", // STRING
 	foto-url: "", // STRING
 	formacion: // 
 		[
+		},
+		{tipo-educacion: "Especialización", // STRING
+		titulo: "Ingeniera de Proyectos", // STRING
+		institucion: "Universidad Distrital", // STRING
+		ciudad: "Bogotá", // STRING
+		fecha-inicio: 1992 // INTEGER
+		fecha-fin: 1994 // INTEGER
+		},
 		{tipo-educacion: "Pregrado", // STRING
 		titulo: "Ingeniera de Sistemas", // STRING
 		institucion: "Universidad Distrital", // STRING
 		ciudad: "Bogotá", // STRING
-		fecha-inicio: xxx // INTEGER
-		fecha-fin: xxx // INTEGER
-		},
-		{tipo-educacion: "Especialización", // STRING
-		titulo: "Ingeniera de Sistemas", // STRING
-		institucion: "Universidad Distrital", // STRING
-		ciudad: "Bogotá", // STRING
-		fecha-inicio: xxx // INTEGER
-		fecha-fin: xxx // INTEGER
-		},
+		fecha-inicio: 1982 // INTEGER
+		fecha-fin: 1986 // INTEGER
 		{tipo-educacion: "Formal",
 		titulo: "Bachiller",
-		institucion: "Colegio de ",
+		institucion: "Colegio de Saleciano",
 		ciudad: "",
-		fecha-inicio: xxx // INTEGER
-		fecha-fin: xxx // INTEGER
+		fecha-inicio: 1969 // INTEGER
+		fecha-fin: 1975 // INTEGER
 		},
 		]
 	tipo-relacion: "familiar", // STRING
@@ -70,8 +70,8 @@ let personaB = {
 
 let personaC = {
 	nombre: "David Polanía Reyes", // 
-	edad: 36,
-	fecha-nacimiento: 1980,
+	edad: 38,
+	fecha-nacimiento: 1982,
 	estatura: 175 // INTEGER
 	rol: "Hermano Mayor", // STRING
 	foto-url: "", // STRING
@@ -88,10 +88,10 @@ let personaC = {
 		titulo: "Bachiller",
 		institucion: "Colegio Champagnat",
 		ciudad: "Bogotá",
-		fecha-inicio:  // INTEGER
-		fecha-fin: xxx // INTEGER
+		fecha-inicio: 1993  // INTEGER
+		fecha-fin: 1999 // INTEGER
 		},
-		]
+		],
 	tipo-relacion: "familiar", // STRING
 	relacion-poder: "asimétrica" // STRING asimétrica | simétrica
 	adyacencia: 1, // INTEGER
@@ -104,7 +104,28 @@ let personaD = {
 	estatura: 170 // INTEGER
 	rol: "Hermana Mayor", // STRING
 	foto-url: "", // STRING
-	formacion: // 
+	formacion: // [
+		{tipo-educacion: "Postgrado",
+		titulo: "PHD Economia",
+		institucion: "University Of Siena",
+		ciudad: "Siena",
+		fecha-inicio: 2007, // INTEGER
+		fecha-fin: 2015, // INTEGER
+		},
+		{tipo-educacion: "Postgrado",
+		titulo: "PHD Economia",
+		institucion: "University College London",
+		ciudad: "Londres",
+		fecha-inicio: 2009, // INTEGER
+		fecha-fin: 2015, // INTEGER
+		},
+		{tipo-educacion: "Maestria",
+		titulo: "Maestria en Economia",
+		institucion: "Universidad de los Andes",
+		ciudad: "Bogotá",
+		fecha-inicio: 2003, // INTEGER
+		fecha-fin: 2005, // INTEGER
+		},
 		[
 		{tipo-educacion: "Pregrado", // STRING
 		titulo: "Economista", // STRING
@@ -120,30 +141,7 @@ let personaD = {
 		fecha-inicio: 1990 // INTEGER
 		fecha-fin: 1998 // INTEGER
 		},
-		
-		{tipo-educacion: "Maestria",
-		titulo: "Maestria en Economia",
-		institucion: "Universidad de los Andes",
-		ciudad: "Bogotá",
-		fecha-inicio: 2003, // INTEGER
-		fecha-fin: 2005, // INTEGER
-		},
-		
-		{tipo-educacion: "Postgrado",
-		titulo: "PHD Economia",
-		institucion: "University Of Siena",
-		ciudad: "Siena",
-		fecha-inicio: 2007, // INTEGER
-		fecha-fin: 2015, // INTEGER
-		},
-		{tipo-educacion: "Postgrado",
-		titulo: "PHD Economia",
-		institucion: "University College London",
-		ciudad: "Londres",
-		fecha-inicio: 2009, // INTEGER
-		fecha-fin: 2015, // INTEGER
-		},
-		]
+		],
 	tipo-relacion: "familiar", // STRING
 	relacion-poder: "asimétrica" // STRING asimétrica | simétrica
 	adyacencia: 2, // INTEGER
@@ -179,7 +177,7 @@ let personaE = {
 		fecha-inicio: xxx // INTEGER
 		fecha-fin: xxx // INTEGER
 		},
-		]
+		],
 	tipo-relacion: "familiar", // STRING
 	relacion-poder: "asimétrica" // STRING asimétrica | simétrica
 	adyacencia: 1, // INTEGER
@@ -215,7 +213,7 @@ let personaF = {
 		fecha-inicio: xxx // INTEGER
 		fecha-fin: xxx // INTEGER
 		},
-		]
+		],
 	tipo-relacion: "amigo", // STRING
 	relacion-poder: "simétrica" // STRING asimétrica | simétrica
 	adyacencia: 0, // INTEGER
@@ -232,26 +230,26 @@ let personaG = {
 		[
 		{tipo-educacion: "Maestría", // STRING
 		titulo: "Arte e Historia", // STRING
-		institucion: "Universida de xxx", // STRING
-		ciudad: "xxx", // STRING
-		fecha-inicio: xxx // INTEGER
-		fecha-fin: xxx // INTEGER
+		institucion: "Utrecht School of Arts", // STRING
+		ciudad: "Utrecht", // STRING
+		fecha-inicio: 2014 // INTEGER
+		fecha-fin: 2015 // INTEGER
 		},
 		{tipo-educacion: "Pregrado", // STRING
 		titulo: "Maestro en Arte", // STRING
 		institucion: "Universidad de los Andes", // STRING
 		ciudad: "Bogotá", // STRING
-		fecha-inicio: xxx // INTEGER
-		fecha-fin: xxx // INTEGER
+		fecha-inicio: 2007 // INTEGER
+		fecha-fin: 2012 // INTEGER
 		},
 		{tipo-educacion: "Formal",
 		titulo: "Bachiller",
 		institucion: "Agustiniando Norte",
 		ciudad: "Bogotá",
-		fecha-inicio: xxx // INTEGER
-		fecha-fin: xxx // INTEGER
+		fecha-inicio: 2000 // INTEGER
+		fecha-fin: 2006 // INTEGER
 		},
-		]
+		],
 	tipo-relacion: "amigo", // STRING
 	relacion-poder: "simétrica" // STRING asimétrica | simétrica
 	adyacencia: 0, // INTEGER
@@ -270,22 +268,22 @@ let personaG = {
 		titulo: "Derecho Internacional", // STRING
 		institucion: "Universida de los Andes", // STRING
 		ciudad: "Bogotá", // STRING
-		fecha-inicio: xxx // INTEGER
-		fecha-fin: xxx // INTEGER
+		fecha-inicio: 2014 // INTEGER
+		fecha-fin: 2016 // INTEGER
 		},
 		{tipo-educacion: "Pregrado", // STRING
-		titulo: "Maestro en Arte", // STRING
+		titulo: "Derecho", // STRING
 		institucion: "Universidad de los Andes", // STRING
 		ciudad: "Bogotá", // STRING
-		fecha-inicio: xxx // INTEGER
-		fecha-fin: xxx // INTEGER
+		fecha-inicio: 2007 // INTEGER
+		fecha-fin: 2013 // INTEGER
 		},
 		{tipo-educacion: "Formal",
 		titulo: "Bachiller",
 		institucion: "Agustiniando Norte",
 		ciudad: "Bogotá",
-		fecha-inicio: xxx // INTEGER
-		fecha-fin: xxx // INTEGER
+		fecha-inicio: 2000 // INTEGER
+		fecha-fin: 2006 // INTEGER
 		},
 		]
 	tipo-relacion: "amigo", // STRING
@@ -306,24 +304,24 @@ let personaH = {
 		titulo: "Diseño Gráfico", // STRING
 		institucion: "Universida de los Andes", // STRING
 		ciudad: "Bogotá", // STRING
-		fecha-inicio: xxx // INTEGER
-		fecha-fin: xxx // INTEGER
+		fecha-inicio: 2013 // INTEGER
+		fecha-fin: 2015 // INTEGER
 		},
 		{tipo-educacion: "Pregrado", // STRING
 		titulo: "Diseño Industrial", // STRING
 		institucion: "Pontificio Universidad Javeriana", // STRING
 		ciudad: "Bogotá", // STRING
-		fecha-inicio: xxx // INTEGER
-		fecha-fin: xxx // INTEGER
+		fecha-inicio: 2007 // INTEGER
+		fecha-fin: 2012 // INTEGER
 		},
 		{tipo-educacion: "Formal",
 		titulo: "Bachiller",
 		institucion: "Agustiniando Norte",
 		ciudad: "Bogotá",
-		fecha-inicio: xxx // INTEGER
-		fecha-fin: xxx // INTEGER
+		fecha-inicio: 2000 // INTEGER
+		fecha-fin: 2006 // INTEGER
 		},
-		]
+		],
 	tipo-relacion: "amigo", // STRING
 	relacion-poder: "simétrica" // STRING asimétrica | simétrica
 	adyacencia: 0, // INTEGER
@@ -342,15 +340,15 @@ let personaI = {
 		titulo: "Diseño", // STRING
 		institucion: "Universidad de los Andes", // STRING
 		ciudad: "Bogotá", // STRING
-		fecha-inicio: xxx // INTEGER
-		fecha-fin: xxx // INTEGER
+		fecha-inicio: 2010 // INTEGER
+		fecha-fin: 2015 // INTEGER
 		},
 		{tipo-educacion: "Formal",
 		titulo: "Bachiller",
 		institucion: "Agustiniando Norte",
 		ciudad: "Bogotá",
-		fecha-inicio: xxx // INTEGER
-		fecha-fin: xxx // INTEGER
+		fecha-inicio: 2003 // INTEGER
+		fecha-fin: 2009 // INTEGER
 		},
 		]
 	tipo-relacion: "amigo", // STRING
@@ -371,15 +369,15 @@ let personaJ = {
 		titulo: "Diseño", // STRING
 		institucion: "Universidad de los Andes", // STRING
 		ciudad: "Bogotá", // STRING
-		fecha-inicio: xxx // INTEGER
-		fecha-fin: xxx // INTEGER
+		fecha-inicio: 2011 // INTEGER
+		fecha-fin: 2016 // INTEGER
 		},
 		{tipo-educacion: "Formal",
 		titulo: "Bachiller",
 		institucion: "",
 		ciudad: "Bogotá",
-		fecha-inicio: xxx // INTEGER
-		fecha-fin: xxx // INTEGER
+		fecha-inicio: 2004 // INTEGER
+		fecha-fin: 2010 // INTEGER
 		},
 		]
 	tipo-relacion: "amigo", // STRING
