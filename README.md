@@ -9,6 +9,8 @@ Cronograma de la clase: ([enlace](https://docs.google.com/spreadsheets/d/1Dwswmp
 
 Notas de la clase: ([enlace](https://docs.google.com/spreadsheets/d/1K_rnWf3lV4N5knn7pLpzE9ClJoxl-ljuVs3BCbWUAt0/edit?usp=sharing))
 
+Presentaciones de diapositivas: ([enlace](https://drive.google.com/drive/folders/1k00X_IFDQPX-b1W0ml1fMsVRXyf5wN_W?usp=sharing))
+
 Retroalimentación a comentarios: ([enlace](https://drive.google.com/drive/folders/1Ji4qvDFIf8nAookTMyWtz7AHGA62kT1W?usp=sharing))
 
 ## Descargar carpetas de este repositorio
@@ -72,8 +74,11 @@ Deben subir la entrega a la carpeta de este repositorio con su nombre a la carpe
 
 —Anotación base de datos: segundo, deben anotar tres datos adicionales a los ítems registrados en el archivo JSON que tienen en su carpeta "entrega_2". Recuerden que ese archivo JSON contiene datos sobre el "Catálogo Razonado de Beatriz González". Simplemente deben seguir el protocolo establecido en clase y deben añadir los datos extra a cada uno de los ítems.
 
+### Entrega 3
+Esta entrega está compuesta por dos partes:
 
+—Data driven art: deben usar el objeto biográfico de JavaScript que crearon en la entrega anterior para crear una "obra de arte basada en datos", es decir, una obra que utilice los datos abstractos para codificar marcas y canales en una imagen. Deben hacer la obra en un canvas de p5, la idea es que usen y exploren varias de las posibilidades de la librería creativa: procuren usar distintas formas (elipses, rectángulos, triángulos, líneas) y codifiquen distintos canales de esas formas (el color, la longitud, el área, la inclinación, la posición...). Además, procuren usar condicionales y loops. Recuerden que siempre pueden consultar la referencia oficial de p5, los relámpagos y los video tutoriales. Entre más exploren y más ingeniosos sean con las soluciones, mejor. 
 
+Deben subir la entrega a la carpeta de este repositorio con su nombre a la carpeta "entrega_3" y a la subcarpeta "data_art"
 
-
-
+—Gráfica convencional en chart.js: deben crear dos (2) gráficas convencionales con chart.js utilizando los datos que anotaron y añadieron al archivo json de las obras de Beatriz González, o los datos que ya estaban previamente anotados. Piensen cómo podrían visualizar alguno de esos datos y qué gráfica convencional sería la más adecuada (¿una de barras, de línea, de radar, una de dispersión, un histograma, una torta...?). De nuevo, entre más exploren y sean ingeniosos con las soluciones, mejor.
