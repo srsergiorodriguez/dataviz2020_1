@@ -13,6 +13,8 @@ Presentaciones de diapositivas: ([enlace](https://drive.google.com/drive/folders
 
 Retroalimentación a comentarios: ([enlace](https://drive.google.com/drive/folders/1Ji4qvDFIf8nAookTMyWtz7AHGA62kT1W?usp=sharing))
 
+Y aquí pueden leerlos comentarios que han escrito todos los de la clase: ([enlace](https://drive.google.com/file/d/1LFLGCjz4p2R8tFoQhxpx6zqcALecAwUX/view?usp=sharing))
+
 ## Descargar carpetas de este repositorio
 
 Para descargar carpetas de este repositorio ingresa a [este sitio](http://kinolien.github.io/gitzip/) y, en el cuadro de texto que dice "GitHub repo root URL or subfolder URL", pon el enlace a la carpeta que quieres descagar. Por ejemplo, para descargar el folder con los datos de ejemplo del curso se debe poner el enlace `https://github.com/srsergiorodriguez/dataviz2020_1/tree/master/datos` dentro del cuadro de texto.
