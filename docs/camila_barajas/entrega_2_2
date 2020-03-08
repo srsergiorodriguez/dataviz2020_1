@@ -1,14 +1,14 @@
 
 let objeto = {
 let variable;
-let nombre = ''Camila''; //String
-let apellido = ''Barajas''; //String
-let edad = 28; //Number
-let estatura = 1,64; //Number
-let mujer = true; //Boolean
-let ojos = [''negro'', ''café'', ''verde'']; //Array
-let científica = false; //Boolean
-let abuelas = [''Helena'', ''Marina'']; //Array
-let hermanos = 1; //Number
-let lunares = x //Undefined 
+nombre = ''Camila''; //String
+apellido = ''Barajas''; //String
+edad = 28; //Number
+estatura = 1,64; //Number
+mujer = true; //Boolean
+ojos = [''negro'', ''café'', ''verde'']; //Array
+científica = false; //Boolean
+abuelas = [''Helena'', ''Marina'']; //Array
+hermanos = 1; //Number
+lunares = x //Undefined 
 }
