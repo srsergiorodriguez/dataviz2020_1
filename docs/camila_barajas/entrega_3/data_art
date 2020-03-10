@@ -1,0 +1,126 @@
+//tamaño del canvas
+let ancho = 500;
+let alto = 500;
+
+//datos biográficos Camila Barajas
+let cientifica = false;
+let mujer = true;
+let edad = 28;
+// edades abuelas, papás, hermano
+let e_marina = 78;
+let e_ma = 55;
+let e_helena= 90;
+let e_pa = 59;
+let e_hermano = 24;
+let estatura = 164;
+
+// lunares
+let lunar = 2;
+let x= 10;
+let y= 10; 
+
+
+function setup() {
+  createCanvas (ancho,alto);
+  
+}
+
+function draw() {
+  background(100,100,20);
+
+
+  // Estatura
+  line(60*2, 250, estatura*2, 250);
+
+  // ¿Es científica?
+  stroke (0,255,255);
+  if (cientifica==true){
+    fill (120,150,10);
+  } else {
+    fill (10,150,150);
+  }
+  square (140,195,20);
+
+  // ¿Es mujer?
+  stroke (0,255,255);
+  if (mujer==true){
+    fill (120,150,10);
+  } else {
+    fill (10,150,150);
+  }
+  square (295,195,20);
+
+// ojo izquierdo
+  fill (56, 45, 0);
+  stroke (56,54,0);
+  strokeWeight (4);
+  circle(200, 190, 30);
+  strokeWeight (2);
+  fill (0);
+  circle(200, 190, 8);
+// ojo derecho
+  fill (56, 45, 0);
+  stroke (56,54,0);
+  strokeWeight (4);
+  circle(260, 190, 30);
+  strokeWeight (2);
+  fill (0);
+  circle(260, 190, 8);
+
+  // Comparativo edades con abuelas y papás
+  fill (150,180,50);
+  rect (edad-20, 409, edad, e_helena)
+  rect (edad*6, 443, edad, e_ma)
+  rect (57,420, edad, e_marina)
+  rect (edad*4, 440, edad, e_pa)
+  rect (edad*8, 475, edad, e_hermano)
+
+  //lunares
+  fill(0,0,0);
+  stroke (0,0,0);
+  ellipse(x,y,lunar);
+  x= x + 1; 
+
+  ellipse(x+10,y+30,lunar);
+  x= x + 1; 
+
+  ellipse(x+10,y+70,lunar);
+  x= x + 1; 
+
+  ellipse(x+10,y+90,lunar);
+  x= x + 1; 
+
+  ellipse(x+10,y+120,lunar);
+  x= x + 1; 
+
+  ellipse(x+10,y+150,lunar);
+  x= x + 1; 
+
+  ellipse(x+10,y+200,lunar);
+  x= x + 1; 
+
+  ellipse(x+10,y+230,lunar);
+  x= x + 1; 
+
+  ellipse(x+10,y+270,lunar);
+  x= x + 1; 
+
+  ellipse(x+10,y+290,lunar);
+  x= x + 1; 
+
+  ellipse(x+10,y+310,lunar);
+  x= x + 1; 
+
+  ellipse(x+10,y+350,lunar);
+  x= x + 1; 
+
+  ellipse(x+10,y+390,lunar);
+  x= x + 1; 
+
+  ellipse(x+10,y+410,lunar);
+  x= x + 1; 
+
+  ellipse(x+10,y+450,lunar);
+  x= x + 1; 
+
+}
