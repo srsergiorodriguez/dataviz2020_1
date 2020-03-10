@@ -1,0 +1,101 @@
+Posicion,Artista,Género,Nacionalidad,Nacimiento,Muerte,Vive?,Obra,Fecha,Alto,Ancho,Profundo,Tipo,Precio,Precio (COP),SalariosMin (COP 2020),AñosSalariosMin,15m(COP),Años 15m
+1,Jeff Koons,H,Estados Unidos,1955,,true,Rabbit,1986,104.1,48.3,30.5,3D,91075000,305101250000,347573,28964,20340,1695
+2,Jean-michel Basquiat,H,Estados Unidos,1960,1988,false,Untitled (Pollo Frito),1982,152.4,306.1,,2D,25701500,86100025000,98085,8173,5740,478
+3,Jean-michel Basquiat,H,Estados Unidos,1960,1988,false,Discography Two,1983,168,152.69,,2D,20900000,70015000000,79761,6646,4667,388
+4,Christopher Wool,H,Estados Unidos,1955,,true,Untitled,1990,274.3,182.8,,2D,15218750,50982812500,58080,4840,3398,283
+5,Kaws,H,Reino Unido,1974,,true,The Kaws Album,2005,101.6,101.6,,2D,14772700,49488545000,56377,4698,3299,274
+6,Christopher Wool,H,Estados Unidos,1955,,true,Untitled,,274.3,182.9,,2D,14000000,46900000000,53428,4452,3126,260
+7,Jenny Saville,M,Reino Unido,1970,,true,Propped,1992,213.4,182.9,,2D,12490600,41843510000,47668,3972,2789,232
+8,Jean-michel Basquiat,H,Estados Unidos,1960,1988,false,Apex,1986,172.5,218.6,,2D,10815000,36230250000,41273,3439,2415,201
+9,Jean-michel Basquiat,H,Estados Unidos,1960,1988,false,Sabado por la Noche (Saturday Night),1984,195.6,223.5,,2D,10635000,35627250000,40586,3382,2375,197
+10,Peter Doig,H,Reino Unido,1959,,true,Buffalo Station I,1997,175.3,269.89,,2D,9903000,33175050000,37793,3149,2211,184
+11,Jean-michel Basquiat,H,Estados Unidos,1960,1988,false,Self Portrait,1983,122,247.9,,2D,9500000,31825000000,36255,3021,2121,176
+12,Peter Doig,H,Reino Unido,1959,,true,House of Pictures,2000,194.9,295.3,,2D,9105200,30502420000,34748,2895,2033,169
+13,Jean-michel Basquiat,H,Estados Unidos,1960,1988,false,Untitled,1982,182.9,121.9,,2D,8977500,30074625000,34261,2855,2004,167
+14,Christopher Wool,H,Estados Unidos,1955,,true,Feet Don’t Fail Me Now,1995,274.3,182.9,,2D,8879400,29745990000,33886,2823,1983,165
+15,Mark Bradford,H,Estados Unidos,1961,,true,Helter Skelter II,2007,375.9,1.107,,2D,8475250,28392087500,32344,2695,1892,157
+16,Albert Oehlen,H,Alemania,1954,,true,Self-Portrait with Empty Hands,1998,200,144,,2D,7552500,25300875000,28822,2401,1686,140
+17,Christopher Wool,H,Estados Unidos,1955,,true,Fuckem,1992,132.1,91.4,,2D,7348500,24617475000,28044,2337,1641,136
+18,Kerry James Marshall,H,Estados Unidos,1955,,true,Untitled (Painter),2008,73,62.9,,2D,7325800,24541430000,27957,2329,1636,136
+19,Jenny Saville,M,Reino Unido,1970,,true,Juncture,1994,305.1,168.3,,2D,7153300,23963555000,27299,2274,1597,133
+20,Mark Grotjahn,H,Estados Unidos,1968,,true,Untitled (Black over Red Orange Mean as a Snake Face 842),2010,257.8,184.2,,2D,7073000,23694550000,26993,2249,1579,131
+21,Liu Xiaodong,H,China,1963,,true,Computer Leader,1996,230,180,,2D,6659000,22307650000,25413,2117,1487,123
+22,Rudolf Stingel,H,Italia,1956,,true,Untitled,2012,241.3,193,,2D,6517500,21833625000,24873,2072,1455,121
+23,Jeff Koons,H,Estados Unidos,1955,,true,Bear and Policeman,1988,215.9,109.2,94,3D,6508500,21803475000,24838,2069,1453,121
+24,Adrian Ghenie,H,Rumania,1977,,true,Boogeyman,2010,200,335,,2D,6354300,21286905000,24250,2020,1419,118
+25,Leng Jun,H,China,1963,,true,View of the world No.3,1995,105,199.5,,2D,6330000,21205500000,24157,2013,1413,117
+26,Zhou Chunya,H,China,1955,,true,Chinese Landscape,1993,194,130.5,,2D,6142500,20577375000,23441,1953,1371,114
+27,Kaws,H,Reino Unido,1974,,true,The Walk Home,2012,173,219.1,,2D,5955000,19949250000,22726,1893,1329,110
+28,Peter Doig,H,Reino Unido,1959,,true,Buffalo Station II,1997,175.3,269.89,,2D,5910700,19800845000,22557,1879,1320,110
+29,Christopher Wool,H,Estados Unidos,1955,,true,Untitled,,198.1,152.4,,2D,5788150,19390302500,22089,1840,1292,107
+30,Adrian Ghenie,H,Rumania,1977,,true,Duchamp’s Funeral I,2009,200,300,,2D,5649900,18927165000,21561,1796,1261,105
+31,Julie Mehretu,M,Estados Unidos,1970,,true,Black Ground (Deep Light),2006,182.9,243.8,,2D,5631700,18866195000,21492,1791,1257,104
+32,Cecily Brown,M,Reino Unido,1969,,true,The Pyjama Game,1997,193,248,,2D,5615300,18811255000,21429,1785,1254,104
+33,Keith Haring,H,Estados Unidos,1958,1990,false,Silence = Death,1988,274.3,304.8,,2D,5609500,18791825000,21407,1783,1252,104
+34,Richard Prince,H,Estados Unidos,1949,,true,Island Nurse,2002,177.8,121.9,,2D,5487500,18383125000,20942,1745,1225,102
+35,Christopher Wool,H,Estados Unidos,1955,,true,Untitled,2006,243.8,182.9,,2D,5311500,17793525000,20270,1689,1186,98
+36,Jenny Saville,M,Reino Unido,1970,,true,Shadow Head,2007,269.2,219.7,,2D,5311500,17793525000,20270,1689,1186,98
+37,Thomas Schütte,H,Alemania,1954,,true,Grosser Geist Nr. 13,,250.8,158.1,88.9,3D,5275600,17673260000,20133,1677,1178,98
+38,Zeng Fanzhi,H,China,1964,,true,Meat No. 3：Nativity,1992,179.5,167,,2D,5146470,17240674500,19640,1636,1149,95
+39,Keith Haring,H,Estados Unidos,1958,1990,false,Untitled,1984,152.4,152.4,,2D,5134200,17199570000,19593,1632,1146,95
+40,Martin Kippenberger,H,Alemania,1953,1997,false,Ohne Titel (Meine Lügen sind ehrliche),1992,198.7,239.2,,2D,5047900,16910465000,19264,1605,1127,93
+41,Takashi Murakami,H,Japón,1962,,true,Tan Tan Bo,2001,360,540,,2D,5037500,16875625000,19224,1602,1125,93
+42,Christopher Wool,H,Estados Unidos,1955,,true,Untitled (P271),1997,274.3,182.9,,2D,5021200,16821020000,19162,1596,1121,93
+43,Jean-michel Basquiat,H,Estados Unidos,1960,1988,false,Santo 3,1982,91.4,91.4,,2D,4955500,16600925000,18911,1575,1106,92
+44,Jonas Wood,H,Estados Unidos,1977,,true,Japanese Garden 3,2019,223.5,248.9,,2D,4928500,16510475000,18808,1567,1100,91
+45,Mark Grotjahn,H,Estados Unidos,1968,,true,Untitled (Yellow Butterfly Orange),2004,152.4,127,,2D,4875700,16333595000,18607,1550,1088,90
+46,Jean-michel Basquiat,H,Estados Unidos,1960,1988,false,Untitled,1981,122,76.2,,2D,4872200,16321870000,18594,1549,1088,90
+47,George Condo,H,Estados Unidos,1957,,true,Washington Square Park,2010,198,274.5,,2D,4812500,16121875000,18366,1530,1074,89
+48,Albert Oehlen,H,Alemania,1954,,true,Stier mit loch (Bull with hole),1986,187.6,188.3,,2D,4695100,15728585000,17918,1493,1048,87
+49,Jean-michel Basquiat,H,Estados Unidos,1960,1988,false,Masque,1981,143.5,128.3,,2D,4635000,15527250000,17688,1474,1035,86
+50,Jean-michel Basquiat,H,Estados Unidos,1960,1988,false,Untitled,,70.2,98.7,,2D,4575000,15326250000,17459,1454,1021,85
+51,Keith Haring,H,Estados Unidos,1958,1990,false,Sister Cities – For Tokyo,1985,236.9,297.8,,2D,4455000,14924250000,17001,1416,994,82
+52,Jean-michel Basquiat,H,Estados Unidos,1960,1988,false,Untitled,1982,40.6,34.29,,2D,4455000,14924250000,17001,1416,994,82
+53,Yoshitomo Nara,H,Japón,1959,,true,Sleepless Night (Cat),1999,120,110,,2D,4449500,14905825000,16980,1415,993,82
+54,Keith Haring,H,Estados Unidos,1958,1990,false,Untitled,1983,302.3,306,,2D,4220000,14137000000,16104,1342,942,78
+55,Richard Prince,H,Estados Unidos,1949,,true,When I was 15,1989,142.19,121.9,,2D,4212500,14111875000,16076,1339,940,78
+56,Zeng Fanzhi,H,China,1964,,true,Mask,1999,222,330,,2D,4177000,13992950000,15940,1328,932,77
+57,Zhou Chunya,H,China,1955,,true,Stone Series – The Tree Connected to Stone,1993,195,130,,2D,4143700,13881395000,15813,1317,925,77
+58,Cecily Brown,M,Reino Unido,1969,,true,Night Passage,1999,254,279,,2D,4120690,13804311500,15725,1310,920,76
+59,Jean-michel Basquiat,H,Estados Unidos,1960,1988,false,Untitled (Head),1982,76.2,55.9,,2D,4100000,13735000000,15647,1303,915,76
+60,Albert Oehlen,H,Alemania,1954,,true,Untitled,1989,240,199.6,,2D,4070600,13636510000,15534,1294,909,75
+61,Zhou Chunya,H,China,1955,,true,Taihu stone,2000,200,150,,2D,4010000,13433500000,15303,1275,895,74
+62,Anselm Kiefer,H,Alemania,1945,,true,The fertile crescent,,475,950,,2D,3997800,13392630000,15256,1271,892,74
+63,Jean-michel Basquiat,H,Estados Unidos,1960,1988,false,Robot Man,1983,56.5,76.5,,2D,3860000,12931000000,14731,1227,862,71
+64,Kaws,H,Reino Unido,1974,,true,IN THE WOODS,2002,147.6,275.3,,2D,3855000,12914250000,14712,1226,860,71
+65,Mark Bradford,H,Estados Unidos,1961,,true,Disappear Like a Dope Fiend,2006,120.3,155.6,,2D,3855000,12914250000,14712,1226,860,71
+66,Zhou Chunya,H,China,1955,,true,Tree series,1993,195,130,,2D,3844100,12877735000,14670,1222,858,71
+67,Li Xuegong,H,China,1962,,true,Lotus,,1,200,,2D,3781800,12669030000,14432,1202,844,70
+68,Jean-michel Basquiat,H,Estados Unidos,1960,1988,false,Logo,1984,153,122,,2D,3771400,12634190000,14392,1199,842,70
+69,Huang Jiannan,H,China,1952,,true,Romantic Charm,2016,160,160,,2D,3758000,12589300000,14341,1195,839,69
+70,Christopher Wool,H,Estados Unidos,1955,,true,Give it Up or Turn it Loose,1994,198.1,152.4,,2D,3750900,12565515000,14314,1192,837,69
+71,Barkley L. Hendricks,H,Estados Unidos,1945,2017,false,Yocks,1975,183.2,106.7,,2D,3740000,12529000000,14273,1189,835,69
+72,Cecily Brown,M,Reino Unido,1969,,true,Confessions of a Window Cleaner,,190.5,228.6,,2D,3620000,12127000000,13815,1151,808,67
+73,John Currin,H,Estados Unidos,1962,,true,Tolbrook,,203.5,106.7,,2D,3615000,12110250000,13796,1149,807,67
+74,Kaws,H,Reino Unido,1974,,true,Untitled (Fatal Group),2004,173,173,,2D,3495000,11708250000,13338,1111,780,65
+75,Adrian Ghenie,H,Rumania,1977,,true,The Collector 4,2009,200.3,240,,2D,3489000,11688150000,13315,1109,779,64
+76,Jean-michel Basquiat,H,Estados Unidos,1960,1988,false,Untitled,1988,107,91.4,,2D,3435000,11507250000,13109,1092,767,63
+77,Mark Tansey,H,Estados Unidos,1949,,true,Repairing the Wheel,1996,213.4,162.6,,2D,3390000,11356500000,12937,1078,757,63
+78,Yoshitomo Nara,H,Japón,1959,,true,Portrait of AE,2009,101.5,86.4,,2D,3388100,11350135000,12930,1077,756,63
+79,Mark Grotjahn,H,Estados Unidos,1968,,true,Untitled (Yellow White Butterfly),2005,170.2,127,,2D,3385300,11340755000,12919,1076,756,63
+80,Yoshitomo Nara,H,Japón,1959,,true,Adieu fille d’automne,2014,227.5,182,,2D,3385300,11340755000,12919,1076,756,63
+81,Zeng Fanzhi,H,China,1964,,true,I-We,2004,215,330,,2D,3843009,12874080150,14666,1222,858,71
+82,Jeff Koons,H,Estados Unidos,1955,,true,Elephant (Violet),1995,381,304.8,18.1,3D,3380000,11323000000,12899,1074,754,62
+83,Mark Grotjahn,H,Estados Unidos,1968,,true,Face No. 1,2004,147.6,122.6,,2D,3380000,11323000000,12899,1074,754,62
+84,Jonas Wood,H,Estados Unidos,1977,,true,M.S.F. Fish Pot #5,2015,193,188,,2D,3375000,11306250000,12880,1073,753,62
+85,Jean-michel Basquiat,H,Estados Unidos,1960,1988,false,Pink Elephant with Fire Engine,1984,208.4,172.7,,2D,3367000,11279450000,12849,1070,751,62
+86,Zhang Xiaogang,H,China,1958,,true,Bloodline – Big Family: Family,1995,100,130,,2D,3320300,11123005000,12671,1055,741,61
+87,Wang Yancheng,H,China,1960,,true,Untitled,2015,190,190,,2D,3174600,10634910000,12115,1009,708,59
+88,Wang Xingwei,H,China,1969,,true,Poor old Hamilton,1996,222,177.5,,2D,3165000,10602750000,12078,1006,706,58
+89,Mark Tansey,H,Estados Unidos,1949,,true,Portage,1999,142.19,121.9,,2D,3080000,10318000000,11754,979,687,57
+90,Kaws,H,Reino Unido,1974,,true,ARMED AWAY,2014,223.2,503,,2D,3073500,10296225000,11729,977,686,57
+91,Mark Bradford,H,Estados Unidos,1961,,true,Scratch Pink,,152.4,121.9,,2D,3020000,10117000000,11525,960,674,56
+92,Julie Mehretu,M,Estados Unidos,1970,,true,Arcade,2005,214,305.39,,2D,3020000,10117000000,11525,960,674,56
+93,Marlene Dumas,M,Sudáfrica,1953,,true,Magdalena (Dark Polychrome),1995,200,100,,2D,3016600,10105610000,11512,959,673,56
+94,Albert Oehlen,H,Alemania,1954,,true,Die Badenden,1999,275.6,475.8,,2D,3016600,10105610000,11512,959,673,56
+95,Zhang Yan,H,China,1963,,true,Cham dance,1995,170,195,,2D,3007500,10075125000,11477,956,671,55
+96,Chen Yifei,H,China,1946,2005,false,Reclining nude,1996,200,200,,2D,3007500,10075125000,11477,956,671,55
+97,Zeng Fanzhi,H,China,1964,,true,Mask,1996,198.7,149.4,,2D,2997100,10040285000,11437,953,669,55
+98,Liu Ye,H,China,1964,,true,"Boogie Woogie, Little Girl in New York",2006,210,210,,2D,2926700,9804445000,11169,930,653,54
+99,Martin Kippenberger,H,Alemania,1953,1997,false,"Untitled, Lantern For Documenta IX",1992,217,173,42,3D,2859000,9577650000,10910,909,638,53
+100,Christopher Wool,H,Estados Unidos,1955,,true,Untitled,1998,274.3,182.9,,2D,2841900,9520365000,10845,903,634,52
