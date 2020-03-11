@@ -94,3 +94,5 @@ Ana María: [Chart 1](https://srsergiorodriguez.github.io/dataviz2020_1/ana_mari
 Cristian: [Chart 1](https://srsergiorodriguez.github.io/dataviz2020_1/cristian_baquero/entrega_3/beatriz_gonzalez/grafica_1/), [Chart 2](https://srsergiorodriguez.github.io/dataviz2020_1/cristian_baquero/entrega_3/beatriz_gonzalez/grafica_2/), [P5](https://srsergiorodriguez.github.io/dataviz2020_1/cristian_baquero/entrega_3/data_art/)
 
 Teresa: [Chart 1](https://srsergiorodriguez.github.io/dataviz2020_1/teresa_loayza/Entrega_3/p5_BG_emociones/), [Chart 2](https://srsergiorodriguez.github.io/dataviz2020_1/teresa_loayza/Entrega_3/p5_BG_formatos/), [P5](https://srsergiorodriguez.github.io/dataviz2020_1/teresa_loayza/Entrega_3/p5_objeto/)
+
+Andrés: [Chart](https://srsergiorodriguez.github.io/dataviz2020_1/andres_polania/entrega_3/chart/), [P5](https://srsergiorodriguez.github.io/dataviz2020_1/andres_polania/entrega_3/dataArt/)
