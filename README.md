@@ -89,10 +89,14 @@ Trabajos de la entrega:
 
 Mónica: [Chart](https://srsergiorodriguez.github.io/dataviz2020_1/monica_ruiz/entrega_3/data_art_Chart/), [P5](https://srsergiorodriguez.github.io/dataviz2020_1/monica_ruiz/entrega_3/data_art_P5/)
 
-Ana María: [Chart 1](https://srsergiorodriguez.github.io/dataviz2020_1/ana_maria_buitrago/Entrega_3/E3_grafico_1/), [Chart 2](https://srsergiorodriguez.github.io/dataviz2020_1/ana_maria_buitrago/Entrega_3/E3_grafico_2)
+Ana María: [Chart 1](https://srsergiorodriguez.github.io/dataviz2020_1/ana_maria_buitrago/Entrega_3/E3_grafico_1/), [Chart 2](https://srsergiorodriguez.github.io/dataviz2020_1/ana_maria_buitrago/Entrega_3/E3_grafico_2), [P5](https://srsergiorodriguez.github.io/dataviz2020_1/ana_maria_buitrago/Entrega_3/art_AMBS/)
 
 Cristian: [Chart 1](https://srsergiorodriguez.github.io/dataviz2020_1/cristian_baquero/entrega_3/beatriz_gonzalez/grafica_1/), [Chart 2](https://srsergiorodriguez.github.io/dataviz2020_1/cristian_baquero/entrega_3/beatriz_gonzalez/grafica_2/), [P5](https://srsergiorodriguez.github.io/dataviz2020_1/cristian_baquero/entrega_3/data_art/)
 
 Teresa: [Chart 1](https://srsergiorodriguez.github.io/dataviz2020_1/teresa_loayza/Entrega_3/p5_BG_emociones/), [Chart 2](https://srsergiorodriguez.github.io/dataviz2020_1/teresa_loayza/Entrega_3/p5_BG_formatos/), [P5](https://srsergiorodriguez.github.io/dataviz2020_1/teresa_loayza/Entrega_3/p5_objeto/)
 
 Andrés: [Chart](https://srsergiorodriguez.github.io/dataviz2020_1/andres_polania/entrega_3/chart/), [P5](https://srsergiorodriguez.github.io/dataviz2020_1/andres_polania/entrega_3/dataArt/)
+
+Isis: [Chart 1](https://srsergiorodriguez.github.io/dataviz2020_1/isis_beleno/entrega_3/Beatriz%20Gonzalez/Grafico1/chart1/), [Chart 2](https://srsergiorodriguez.github.io/dataviz2020_1/isis_beleno/entrega_3/Beatriz%20Gonzalez/Grafico2/chart2/), [P5](https://srsergiorodriguez.github.io/dataviz2020_1/isis_beleno/entrega_3/Data%20art%20Isis/)
+
+Camila: [Chart y P5](https://editor.p5js.org/ssergiorodriguezz/sketches/hmiXFKg5)
