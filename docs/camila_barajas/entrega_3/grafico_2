@@ -1,0 +1,32 @@
+let contexto = document.getElementById('micanvas').getContext('2d');
+let opciones = {
+    type: 'bar',
+    data: {
+        labels: ["17 obras Beatriz González"],
+        datasets: [
+            {
+                
+                label: "Con firma",
+                data: [12],
+                backgroundColor: 'rgb(42,98,250)'
+            },
+            {
+                label: "Sin firma",
+                data: [5],
+                backgroundColor: 'rgb(195,232,254)'
+                },
+                           
+        ]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+}
+
+let grafica = new Chart(contexto, opciones);
