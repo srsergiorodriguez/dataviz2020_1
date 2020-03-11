@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 11, 2020, 8:55:44 AM
+    Author     : apolan
+*/
+
+body{
+    font-family: 'Oswald', serif;  
+}
+
+h1{
+    font-weight: 600;
+    font-size: 30pt;
+    text-transform: uppercase;
+}
+
+h2{
+    font-weight: 200;
+    font-size: 14pt;
+    text-transform: uppercase;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+
+.titulo-1{
+    font-weight: 600;
+    font-size: 10pt;
+    text-transform: uppercase; 
+    padding: 10px;
+}
+
+.chapter{
+    padding: 10px;
+
+}
+
+.txt-normal{
+    font-weight: 200;
+    font-size: 12pt;
+}
+
+.txt-small{
+    font-weight: 200;
+    font-size: 10pt;
+}
+
+.light{
+    font-weight:100 !important;
+
+}
+
+.letter-size-sm{
+    font-size: 10pt;
+}
+
+.letter-size-md{
+    font-size: 15pt;
+}
+
+.letter-size-xl{
+    font-size: 20pt;
+}
+
+.space-letter{
+    letter-spacing: 5px;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+li > * {
+    font-weight:900;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+
+
+.sp-sm{
+    margin-top: 30px;
+}
+
+
+.sp-md{
+    margin-top: 60px;
+}
+
+
+.sp-xl{
+    margin-top: 100px;
+}
+
+.spb-xl{
+    margin-bottom: 200px;
+
+}
+
+.spb-sm{
+    margin-bottom: 30px;
+
+}
+
+.line-top{
+    border-top: 1px solid #545b6259;
+    padding-top: 20px;
+    
+}
+/* INTERACTIONS*/
+
+.titulo-1:hover{
+    transition-duration: 250ms;
+    background-color: black;
+    color:white;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: black;
+}
+
+.nav-pills .nav-link.active, .nav-pills{
+    min-width: 160px;
+}
+
+.chapter:hover{
+    transition-duration: 250ms;
+    background-color: black;
+    color:white;    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    /* background-color: transparent; */
+}
+
+
+
+/*Carousel*/
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+img{
+    max-height: 100px;
+}
+
+.nav-item{
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.nav-item a{
+    min-height: 162px;
+}

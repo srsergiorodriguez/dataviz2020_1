@@ -1,4 +1,4 @@
-{"andres_polania": [
+var dataJson = {"andres_polania": [
     {
       "id": 178,
       "collection_name": "1960 - 1969",
@@ -161,7 +161,7 @@
           204
         ]
       ],
-	  	  "firma": false,
+	  "firma": false,
 	  "genero" :"retrato",
 	  "tristeza": 4, 
 	"felicidad": 4,
@@ -1507,4 +1507,4 @@
 	  "tristeza": 9, 
 	"felicidad": 0,
 "irritacion":9,
-}
+};

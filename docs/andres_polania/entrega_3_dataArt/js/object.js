@@ -1,0 +1,336 @@
+
+
+
+var personaA = {
+	"nombre": "Rodolfo Polanía Cortes", 
+	"edad": 74,
+	"fecha-nacimiento": 1943,
+	"estatura": 167, 
+	"rol": "padre", 
+	"foto-url": "", 
+	"formacion": 
+		[{
+				"tipo-educacion": "pregrado", 
+				"titulo": "Economista", 
+				"institucion": "Universidad Santo Tomás", 
+				"ciudad": "Bogotá", 
+				"fecha-inicio": 1973, 
+				"fecha-fin": 1978,
+			},
+			{
+				"tipo-educacion": "Formal",
+				"titulo": "Bachiller",
+				"institucion": "Colegio de ",
+				"ciudad": "Campo Alegre",
+				"fecha-inicio" : 1966, 
+				"fecha-fin" : 1970,
+			}],
+	"tipo-relacion": "familiar", 
+	"relacion-poder": "asimétrica",
+	"adyacencia": 1, 
+};
+
+var personaB = {
+	"nombre": "Martha Lucia Reyes Gonzales", 
+	"edad": 63,
+	"fecha-nacimiento": 1957,
+	"estatura": 155, 
+	"rol": "madre", 
+	"foto-url": "", 
+	"formacion": 
+		[{
+			"tipo-educacion": "Especialización", 
+			"titulo": "Ingeniera de Proyectos", 
+			"institucion": "Universidad Distrital", 
+			"ciudad": "Bogotá", 
+			"fecha-inicio": 1992, 
+			"fecha-fin": 1994,
+		},
+		{
+			"tipo-educacion": "Pregrado", 
+			"titulo": "Ingeniera de Sistemas", 
+			"institucion": "Universidad Distrital", 
+			"ciudad": "Bogotá", 
+			"fecha-inicio": 1982, 
+			"fecha-fin": 1986,
+		},
+		{
+			"tipo-educacion": "Formal",
+			"titulo": "Bachiller",
+			"institucion": "Colegio de Saleciano",
+			"ciudad": "Bogotá",
+			"fecha-inicio" : 1969, 
+			"fecha-fin" : 1975,
+		}],
+	"tipo-relacion": "familiar", 
+	"relacion-poder": "simétrica",
+	"adyacencia": 1, 
+};
+
+
+var personaC = {
+	"nombre": "Sebastian Rodriguez", 
+	"edad": 31,
+	"fecha-nacimiento": 1988,
+	"estatura": 172, 
+	"rol": "Mejor Amigo", 
+	"foto-url": "", 
+	"formacion": 
+		[{
+			"tipo-educacion": "Maestría", 
+			"titulo": "Diseño Gráfico", 
+			"institucion": "Ied Barcelona", 
+			"ciudad": "Barcelona", 
+			"fecha-inicio": 2013, 
+			"fecha-fin": 2015,
+		},
+		{
+			"tipo-educacion": "Pregrado", 
+			"titulo": "Diseño Industrial", 
+			"institucion": "Pontificio Universidad Javeriana", 
+			"ciudad": "Bogotá", 
+			"fecha-inicio": 2007, 
+			"fecha-fin": 2012,
+		},
+		{
+			"tipo-educacion": "Formal",
+			"titulo": "Bachiller",
+			"institucion": "Colegio Agustiniando Norte",
+			"ciudad": "Bogotá",
+			"fecha-inicio" : 2000, 
+			"fecha-fin" : 2006,
+		}],
+	"tipo-relacion": "amigo", 
+	"relacion-poder": "simétrica",
+	"adyacencia": 0, 
+};
+
+var personaD = {
+	"nombre": "David Polanía Reyes", 
+	"edad": 38,
+	"fecha-nacimiento": 1982,
+	"estatura": 175, 
+	"rol": "Hermano Mayor", 
+	"foto-url": "", 
+	"formacion": 
+		[{
+			"tipo-educacion": "Pregrado", 
+			"titulo": "Ingeniero Industrial", 
+			"institucion": "Universidad de los Andes", 
+			"ciudad": "Bogotá", 
+			"fecha-inicio": 2000, 
+			"fecha-fin": 2005,
+		},
+		{
+			"tipo-educacion": "Formal",
+			"titulo": "Bachiller",
+			"institucion": "Colegio Champagnat",
+			"ciudad": "Bogotá",
+			"fecha-inicio" : 1993, 
+			"fecha-fin" : 1999,
+		}],
+	"tipo-relacion": "familiar", 
+	"relacion-poder": "asimétrica",
+	"adyacencia": 1, 
+};
+
+var personaE = {
+	"nombre": "Sandra Polanía Reyes", 
+	"edad": 39,
+	"fecha-nacimiento": 1978,
+	"estatura": 170, 
+	"rol": "Hermana Mayor", 
+	"foto-url": "", 
+	"formacion": 
+		[
+		{
+			"tipo-educacion": "Postgrado", 
+			"titulo": "PHD Economia", 
+			"institucion": "University College London", 
+			"ciudad": "Londres", 
+			"fecha-inicio": 2009, 
+			"fecha-fin": 2015,
+		},
+		{
+			"tipo-educacion": "Postgrado", 
+			"titulo": "PHD Economia", 
+			"institucion": "University Of Siena", 
+			"ciudad": "Londres", 
+			"fecha-inicio": 2007, 
+			"fecha-fin": 2015,
+		},
+		{
+			"tipo-educacion": "Maestría", 
+			"titulo": "Maestria en Economia", 
+			"institucion": "Universidad de los Andes", 
+			"ciudad": "Bogotá", 
+			"fecha-inicio": 2003, 
+			"fecha-fin": 2005,
+		},
+		{
+			"tipo-educacion": "Pregrado", 
+			"titulo": "Economista", 
+			"institucion": "Universidad de los Andes", 
+			"ciudad": "Bogotá", 
+			"fecha-inicio": 1990, 
+			"fecha-fin": 2003,
+		},
+		{
+			"tipo-educacion": "Formal", 
+			"titulo": "Bachiller", 
+			"institucion": "Colegio Nuestra Señora del Pilar", 
+			"ciudad": "Bogotá", 
+			"fecha-inicio": 1990, 
+			"fecha-fin": 1998,
+		}],
+	"tipo-relacion": "familiar", 
+	"relacion-poder": "asimétrica",
+	"adyacencia": 2, 
+};
+
+var personaF = {
+	"nombre": "Diana Polanía Reyes", 
+	"edad": 36,
+	"fecha-nacimiento": 1984,
+	"estatura": 175, 
+	"rol": "Hermano Mayor", 
+	"foto-url": "", 
+	"formacion": 
+		[{
+			"tipo-educacion": "Espcialización", 
+			"titulo": "Ginecología y Obstetricia", 
+			"institucion": "Potificia Universidad Javeriana", 
+			"ciudad": "Bogotá", 
+			"fecha-inicio": 2010, 
+			"fecha-fin": 2016,
+		},
+		{
+			"tipo-educacion": "Pregrado", 
+			"titulo": "Médica General", 
+			"institucion": "Potificia Universidad Javeriana", 
+			"ciudad": "Bogotá", 
+			"fecha-inicio": 2002, 
+			"fecha-fin": 2008,
+		},
+		{
+			"tipo-educacion": "Formal",
+			"titulo": "Bachiller",
+			"institucion": "Colegio Nuestra Señora del Pilar",
+			"ciudad": "Bogotá",
+			"fecha-inicio" : 2001, 
+			"fecha-fin" : 1996,
+		}],
+	"tipo-relacion": "familiar", 
+	"relacion-poder": "simétrica",
+	"adyacencia": 0, 
+};
+
+var personaG = {
+	"nombre": "Diana Gómez", 
+	"edad": 30,
+	"fecha-nacimiento": 1989,
+	"estatura": 164, 
+	"rol": "Mejor Amiga", 
+	"foto-url": "", 
+	"formacion": 
+		[{
+			"tipo-educacion": "Maestría", 
+			"titulo": "Diseño de Moda", 
+			"institucion": "Universida de Barcelona", 
+			"ciudad": "Barcelona", 
+			"fecha-inicio": 2011, 
+			"fecha-fin": 2013,
+		},
+		{
+			"tipo-educacion": "Pregrado", 
+			"titulo": "Diseño", 
+			"institucion": "Universidad de los Andes", 
+			"ciudad": "Bogotá", 
+			"fecha-inicio": 2007, 
+			"fecha-fin": 2011,
+		},
+		{
+			"tipo-educacion": "Formal",
+			"titulo": "Bachiller",
+			"institucion": "Colegio Hijas de Cristo Rey",
+			"ciudad": "Bogotá",
+			"fecha-inicio" : 2000, 
+			"fecha-fin" : 2006,
+		}],
+	"tipo-relacion": "amigo", 
+	"relacion-poder": "simétrica",
+	"adyacencia": 0, 
+};
+var personaH = {
+	"nombre": "Felipe Zapata", 
+	"edad": 31,
+	"fecha-nacimiento": 1988,
+	"estatura": 164, 
+	"rol": "Mejor Amigo", 
+	"foto-url": "", 
+	"formacion": 
+		[{
+			"tipo-educacion": "Maestría", 
+			"titulo": "Arte e Historia", 
+			"institucion": "Utrecht School of Arts", 
+			"ciudad": "Utrecht", 
+			"fecha-inicio": 2014, 
+			"fecha-fin": 2016,
+		},
+		{
+			"tipo-educacion": "Pregrado", 
+			"titulo": "Maestro en Arte", 
+			"institucion": "Universidad de los Andes", 
+			"ciudad": "Bogotá", 
+			"fecha-inicio": 2007, 
+			"fecha-fin": 2012,
+		},
+		{
+			"tipo-educacion": "Formal",
+			"titulo": "Bachiller",
+			"institucion": "Agustiniando Norte",
+			"ciudad": "Bogotá",
+			"fecha-inicio" : 2000, 
+			"fecha-fin" : 2006,
+		}],
+	"tipo-relacion": "amigo", 
+	"relacion-poder": "simétrica",
+	"adyacencia": 0, 
+};
+
+var personaI = {
+	"nombre": "Andrés Felipe Esteban", 
+	"edad": 31,
+	"fecha-nacimiento": 1988,
+	"estatura": 171, 
+	"rol": "Mejor Amigo", 
+	"foto-url": "", 
+	"formacion": 
+		[{
+			"tipo-educacion": "Maestría", 
+			"titulo": "Derecho Internacional", 
+			"institucion": "Universidad de los Andes", 
+			"ciudad": "Bogotá",
+			"fecha-inicio": 2014,
+			"fecha-fin": 2016,
+		},
+		{
+			"tipo-educacion": "Pregrado", 
+			"titulo": "Derecho", 
+			"institucion": "Universidad de los Andes", 
+			"ciudad": "Bogotá", 
+			"fecha-inicio": 2007, 
+			"fecha-fin": 2013,
+		},
+		{
+			"tipo-educacion": "Formal",
+			"titulo": "Bachiller",
+			"institucion": "Agustiniando Norte",
+			"ciudad": "Bogotá",
+			"fecha-inicio" : 2000, 
+			"fecha-fin" : 2006,
+		}],
+	"tipo-relacion": "amigo", 
+	"relacion-poder": "simétrica",
+	"adyacencia": 1, 
+};
