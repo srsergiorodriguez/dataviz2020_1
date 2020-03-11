@@ -86,6 +86,7 @@ Deben subir la entrega a la carpeta de este repositorio con su nombre a la carpe
 —Gráfica convencional en chart.js: deben crear dos (2) gráficas convencionales con chart.js utilizando los datos que anotaron y añadieron al archivo json de las obras de Beatriz González, o los datos que ya estaban previamente anotados. Piensen cómo podrían visualizar alguno de esos datos y qué gráfica convencional sería la más adecuada (¿una de barras, de línea, de radar, una de dispersión, un histograma, una torta...?). De nuevo, entre más exploren y sean ingeniosos con las soluciones, mejor.
 
 Trabajos de la entrega:
+
 Mónica: [Chart](https://srsergiorodriguez.github.io/dataviz2020_1/monica_ruiz/entrega_3/data_art_Chart/), [P5](https://srsergiorodriguez.github.io/dataviz2020_1/monica_ruiz/entrega_3/data_art_P5/)
 
 Ana María: [Chart 1](https://srsergiorodriguez.github.io/dataviz2020_1/ana_maria_buitrago/Entrega_3/E3_grafico_1/), [Chart 2](https://srsergiorodriguez.github.io/dataviz2020_1/ana_maria_buitrago/Entrega_3/E3_grafico_2)
