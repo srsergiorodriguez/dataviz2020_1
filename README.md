@@ -1,9 +1,9 @@
-# Visualización de datos 2020-1
+# :wavy_dash: Visualización de datos 2020-1 :wavy_dash:
 ## Maestría en humanidades digitales Uniandes
 
 Este es el Repositorio de la clase Visualización de Datos 2020-1 de la Maestría en Humanidades Digitales Uniandes
 
-## Información general
+## :triangular_flag_on_post: Información general
 
 Cronograma de la clase: ([enlace](https://docs.google.com/spreadsheets/d/1DwswmpAYTe26Tsgoxev0eM73QhUNXzxUuQHZH8BhRUI/edit?usp=sharing))
 
@@ -15,11 +15,7 @@ Retroalimentación a comentarios: ([enlace](https://drive.google.com/drive/folde
 
 Y aquí pueden leerlos comentarios que han escrito todos los de la clase: ([enlace](https://drive.google.com/file/d/1LFLGCjz4p2R8tFoQhxpx6zqcALecAwUX/view?usp=sharing))
 
-## Descargar carpetas de este repositorio
-
-Para descargar carpetas de este repositorio ingresa a [este sitio](http://kinolien.github.io/gitzip/) y, en el cuadro de texto que dice "GitHub repo root URL or subfolder URL", pon el enlace a la carpeta que quieres descagar. Por ejemplo, para descargar el folder con los datos de ejemplo del curso se debe poner el enlace `https://github.com/srsergiorodriguez/dataviz2020_1/tree/master/datos` dentro del cuadro de texto.
-
-### Rúbricas para la evaluación de comentarios críticos
+### :v: Rúbricas para la evaluación de comentarios críticos
 Los comentarios críticos son escritos de aproximadamente mil palabras que deben poner en cuestión, extender o defender una postura con respecto a algún tema discutido en clase o planteado en una lectura. Las rúbricas de evaluación para los comentarios son las siguientes:
 
 <table>
@@ -66,7 +62,7 @@ Esta entrega está compuesta por dos partes:
 
 —Objeto biográfico: primero, deben crear un objeto en JavaScript que contenga al menos diez (10) datos sobre ustedes. Los datos pueden ser cualquier cosa que se les ocurra, justamente la idea está en que piensen cómo podrían convertir datos biográficos a datos, pero procuren usar la cantidad más diversa de datatypes de JavaScript. Además, justo adelante de cada elemento del objeto, pongan un comentario que muestre qué tipo de dato de JavaScript es y qué tipo de dato "estadístico" es. Por ejemplo:
 
-```
+```javascript
 let objeto = {
   dato1: 15, // Number Numérico
   dato2: "mueble" // String Categórico
@@ -100,3 +96,12 @@ Andrés: [Chart](https://srsergiorodriguez.github.io/dataviz2020_1/andres_polani
 Isis: [Chart 1](https://srsergiorodriguez.github.io/dataviz2020_1/isis_beleno/entrega_3/Beatriz%20Gonzalez/Grafico1/chart1/), [Chart 2](https://srsergiorodriguez.github.io/dataviz2020_1/isis_beleno/entrega_3/Beatriz%20Gonzalez/Grafico2/chart2/), [P5](https://srsergiorodriguez.github.io/dataviz2020_1/isis_beleno/entrega_3/Data%20art%20Isis/)
 
 Camila: [Chart y P5](https://editor.p5js.org/ssergiorodriguezz/sketches/hmiXFKg5)
+
+### Entrega 4
+La *Base de datos del tráfico trasatlántico de esclavos* es un proyecto muy interesante y muy completo de recolección de datos históricos. La base, principalmente amparada por la Emory University, ha sido recopilada a lo largo de más de dos décadas, y podemos considerarla un ejemplo de trabajo riguroso con datos en ciencias sociales. En general, la base de datos recopila tres grupos de información generales: datos sobre el tráfico trasatlántico de esclavos, sobre el tráfico intra-americano, y datos sobre nombres de esclavos en barcas capturadas desde 1808.
+Para desarrollar la entrega, lo primero que deben hacer es consular el sitio web de la base de datos: [https://slavevoyages.org/about/about#](https://slavevoyages.org/about/about#), leer acerca del proyecto y su historia, y ojear los métodos investigativos que han usado. Especialmente las secciones llamadas **"Para entender la base de datos"**.
+Luego, deben buscar en este repositorio los sets de visualizaciónes básicas de las bases de datos de [tráfico intra-americano](https://github.com/srsergiorodriguez/dataviz2020_1/blob/master/datos/Slave_trade_interamerican.zip) y [nombres de esclavos](https://github.com/srsergiorodriguez/dataviz2020_1/blob/master/datos/Slave_trade_names.zip). Una vez hacen clic en los enlaces, deben cliquear "download". **Esos sets están escritos en d3** y contienen varias visualizaciones básicas de los datos (histogramas, gráficos de barras, de líneas, de área, de coordenadas paralelas, mapas). Si descomentan el código de las funciones que producen las gráficas pueden ver cada una de ellas (:eyes: *ojo: ¡todas se dibujan en el mismo svg!*).
+Para la entrega deben **escoger tres (3) visualizaciones de los datos (puede ser de cualquiera de las dos bases de datos, o de ambas) y deben crear un documento HTML en el que hagan un pequeño análisis del tráfico de esclavos en América a partir de las visualizaciones escogidas**. Para hacer el documento deben echar mano de las cosas que hemos practicado en clase (crear encabezados, párrafos, insertar las gráficas en svg).
+Recuerden que hay una [serie de videos](https://www.youtube.com/watch?v=GG6tINU_yfs&list=PLifoFTjT9GippEjpuwGFxnB2jnoo3fXmA) que explican el funcionamiento de d3.
+Con respecto a la evaluación, hay **tres niveles de complejidad** de este ejercicio, ustedes deciden en cuál se sienten más cómodos: 1) Escoger entre las gráficas que ya están para hacer el análisis. 2) Modificar las gráficas que ya están para que expresen mejor el contenido de los datos (algunas gráficas no son apropiadas para dar cuenta de los datos, pero con algunas mejoras, pueden potenciar el resultado por defecto). 3) Crear sus propias gráficas en d3, e incluso investigar cómo producir gráficos menos convencionales (treemaps, sankeys, coxcombs, grafos, etc.)
+***Suban en análisis en su carpeta del repositorio en una subcarpeta con el nombre entrega_4 (sin mayúscula), la fecha máxima de entrega es el 13 de abril***.
