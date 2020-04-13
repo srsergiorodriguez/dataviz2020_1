@@ -13,7 +13,7 @@ Presentaciones de diapositivas: ([enlace](https://drive.google.com/drive/folders
 
 Retroalimentación a comentarios: ([enlace](https://drive.google.com/drive/folders/1Ji4qvDFIf8nAookTMyWtz7AHGA62kT1W?usp=sharing))
 
-Y aquí pueden leerlos comentarios que han escrito todos los de la clase: ([enlace](https://drive.google.com/file/d/1LFLGCjz4p2R8tFoQhxpx6zqcALecAwUX/view?usp=sharing))
+Y aquí pueden leer los comentarios que han escrito todos los de la clase: ([enlace](https://drive.google.com/file/d/1LFLGCjz4p2R8tFoQhxpx6zqcALecAwUX/view?usp=sharing))
 
 ### :v: Rúbricas para la evaluación de comentarios críticos
 Los comentarios críticos son escritos de aproximadamente mil palabras que deben poner en cuestión, extender o defender una postura con respecto a algún tema discutido en clase o planteado en una lectura. Las rúbricas de evaluación para los comentarios son las siguientes:
@@ -48,7 +48,7 @@ Los comentarios críticos son escritos de aproximadamente mil palabras que deben
 La entrega 1 consiste en crear un documento HTML en el que se codifique o anote el contenido de una página de un libro.
 El documento HTML debe usar varias etiquetas para definir los tipos de elementos que serían equivalentes a la página del libro dentro de un sitio web: encabezados y sub-encabezados, párrafos, imágenes, enlaces...etc. Adicionalmente deben incluir algunos elementos de estilo CSS que modifiquen la apariencia del documento y lo hagan más interesante.
 
-La idea es que experimenten y prueben con distintas formas de marcar el contenido, y que encuentren estrategias que les funcionen a su gusto y sus propósitos. Si tienen dudas, no olviden consultar los relámpagos o las referencias de HTML y CSS que se encuentran en internet. Es imposible memorizarlo todo, así que es una buena práctica aprender a buscar de acuerdo a las necesidades de cada proyecto.
+La idea es que experimenten y prueben con distintas formas de marcar el contenido, y que encuentren estrategias que les funcionen a su gusto y sus propósitos. Si tienen dudas, no olviden consultar los [relámpagos](https://github.com/srsergiorodriguez/relampagos) o las referencias de HTML y CSS que se encuentran en internet. Es imposible memorizarlo todo, así que es una buena práctica aprender a buscar de acuerdo a las necesidades de cada proyecto.
 Para este ejercicio es particularmente adecuada la página de un libro de historia del arte, el cine o el diseño, pues contiene elementos distintivos que anotarse usando varias etiquetas diferentes.
 
 Deben subir la entrega a la carpeta de este repositorio con su nombre. Creen una subcarpeta llamada "entrega_1" y ahí suban un archivo "index.html" con su documento anotado.
@@ -60,7 +60,7 @@ Aquí pueden ver los trabajos entregados:
 ### Entrega 2
 Esta entrega está compuesta por dos partes:
 
-—Objeto biográfico: primero, deben crear un objeto en JavaScript que contenga al menos diez (10) datos sobre ustedes. Los datos pueden ser cualquier cosa que se les ocurra, justamente la idea está en que piensen cómo podrían convertir datos biográficos a datos, pero procuren usar la cantidad más diversa de datatypes de JavaScript. Además, justo adelante de cada elemento del objeto, pongan un comentario que muestre qué tipo de dato de JavaScript es y qué tipo de dato "estadístico" es. Por ejemplo:
+—Objeto biográfico: primero, deben crear un objeto en JavaScript que contenga al menos diez (10) datos sobre ustedes. Los datos pueden ser cualquier cosa que se les ocurra, justamente la idea está en que piensen cómo podrían convertir esos datos biográficos a datos computacionales; procuren usar la cantidad más diversa de datatypes de JavaScript. Además, justo adelante de cada elemento del objeto, pongan un comentario que muestre qué tipo de dato de JavaScript es y qué tipo de dato "estadístico" es. Por ejemplo:
 
 ```javascript
 let objeto = {
@@ -70,12 +70,12 @@ let objeto = {
 ```
 Deben subir la entrega a la carpeta de este repositorio con su nombre a la carpeta "entrega_2"
 
-—Anotación base de datos: segundo, deben anotar tres datos adicionales a los ítems registrados en el archivo JSON que tienen en su carpeta "entrega_2". Recuerden que ese archivo JSON contiene datos sobre el "Catálogo Razonado de Beatriz González". Simplemente deben seguir el protocolo establecido en clase y deben añadir los datos extra a cada uno de los ítems.
+—Anotación base de datos: segundo, deben anotar tres datos adicionales a los ítems registrados en el archivo JSON que tienen en su carpeta "entrega_2". Recuerden que ese archivo JSON contiene datos sobre el "Catálogo Razonado de Beatriz González". Simplemente deben seguir el [protocolo](https://github.com/srsergiorodriguez/dataviz2020_1/blob/master/plantillas/protocolo_anotacion_bg.txt) establecido en clase y deben añadir los datos extra a cada uno de los ítems.
 
 ### Entrega 3
 Esta entrega está compuesta por dos partes:
 
-—Data driven art: deben usar el objeto biográfico de JavaScript que crearon en la entrega anterior para crear una "obra de arte basada en datos", es decir, una obra que utilice los datos abstractos para codificar marcas y canales en una imagen. Deben hacer la obra en un canvas de p5, la idea es que usen y exploren varias de las posibilidades de la librería creativa: procuren usar distintas formas (elipses, rectángulos, triángulos, líneas) y codifiquen distintos canales de esas formas (el color, la longitud, el área, la inclinación, la posición...). Además, procuren usar condicionales y loops. Recuerden que siempre pueden consultar la referencia oficial de p5, los relámpagos y los video tutoriales. Entre más exploren y más ingeniosos sean con las soluciones, mejor. 
+—Data driven art: deben usar el objeto biográfico de JavaScript que crearon en la entrega anterior para crear una "obra de arte basada en datos", es decir, una obra que utilice los datos abstractos para codificar marcas y canales en una imagen. Deben hacer la obra en un canvas de p5. La idea es que usen y exploren varias de las posibilidades de la librería creativa: procuren usar distintas formas (elipses, rectángulos, triángulos, líneas) y codifiquen distintos canales de esas formas (el color, la longitud, el área, la inclinación, la posición...). Además, procuren usar condicionales y loops. Recuerden que siempre pueden consultar la referencia oficial de p5, los relámpagos y los video tutoriales. Entre más exploren y más ingeniosos sean con las soluciones, mejor.
 
 Deben subir la entrega a la carpeta de este repositorio con su nombre a la carpeta "entrega_3" y a la subcarpeta "data_art"
 
@@ -110,3 +110,14 @@ Recuerden que hay una [serie de videos](https://www.youtube.com/watch?v=GG6tINU_
 Con respecto a la evaluación, hay **tres niveles de complejidad** de este ejercicio, ustedes deciden en cuál se sienten más cómodos: 1) Escoger entre las gráficas que ya están para hacer el análisis. 2) Modificar las gráficas que ya están para que expresen mejor el contenido de los datos (algunas gráficas no son apropiadas para dar cuenta de los datos, pero con algunas mejoras, pueden potenciar el resultado por defecto). 3) Crear sus propias gráficas en d3, e incluso investigar cómo producir gráficos menos convencionales (treemaps, sankeys, coxcombs, grafos, etc.).
 
 ***Suban en análisis en su carpeta del repositorio en una subcarpeta con el nombre entrega_4 (sin mayúscula), la fecha máxima de entrega es el 13 de abril***.
+
+### Entrega 5
+Esta entrega consiste en hacer una *visualización simbólica* como las que hemos discutido en clase. Les propongo tres opciones diferentes, ustedes pueden escoger la que más les interese:
+
+* *Crear el panel de un atlas cultural*. Inspirados en el Atlas Mnemosyne de Aby Warburg pueden crear un panel en el que muestren varias relaciones entre objetos culturales. Esos objetos pueden ser de cualquier tipo (obras de arte, piezas literarias, objetos de diseño, canciones, películas, lenguajes, diseño popular, arquitectura, eventos históricos... etc). Pueden hacer el panel a mano o a computador, y deben acompañar las imágenes con un texto corto (max 400 palabras) que sirva como guía para leer el panel; junten todo en un pdf.
+
+* *Crear un árbol genealógico cultural*. Inspirados en la teoría memética pueden crear un árbol genealógico en el que muestren cómo distintos objetos culturales son derivaciones de objetos previos. Pueden hacer el árbol a mano o a computador, y deben acompañar las imágenes con un texto corto (max 400 palabras) que sirva como guía para leer el árbol; junten todo en un pdf.
+
+* *Crear un entorno de visualización en Palladio*. Pueden recopilar una o varias tablas con datos que estén interesados en analizar y que estén formateados adecuadamente para que Palladio los lea adecuadamente. Lo que tendrían que enviarme en este caso es un pdf con visualizaciones concretas producidas en Palladio a partir de los datos y un texto corto (max 400 palabras) que explique los descubrimientos que tuvieron en la exploración o un análisis concreto de los datos.
+
+***Deben enviarme el ejercicio por correo antes del 4 de mayo***
