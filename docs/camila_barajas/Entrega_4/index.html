@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Visualizaciones de los datos de slavevoyages.org</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  </head> 
+  <body>
+   <div id="general">
+    <div class="viz_container">
+      <div id="encabezados">
+      <h1>Análisis Viajes Esclavistas</h1>
+    </div>
+    <div id="imagen">
+    <div id="texto">
+    <img id="imagen" width="500px"src="https://historia.nationalgeographic.com.es/medio/2014/11/13/esclavos1_2000x1179.jpg">
+      <p>En enero de 2009 los directores del proyecto para crear Viajes: base de datos del comercio trasatlántico de esclavos comenzaron el Proyecto de los orígenes africanos, un trabajo colaborativo público-académico con el propósito de rastrear los orígenes geográficos de los africanos transportados en el comercio trasatlántico de esclavos. </p>
+    </div>
+    <h2>Edades de personas esclavizadas</h2>
+      <div id="grafica_1">
+      <svg id="svg_graph"></svg>
+    </div>
+      <p> <a href="https://slavevoyages.org/"> Fuente.</a> </p>
+      <p> En la gráfica se puede observar que la mayoría de las personas transportadas en los barcos durante los  viajes esclavistas eran menores de 30 años. Siendo el rango entre 10 y 15 años el más común. Aquí es fundamental tener en cuenta que a lo largo de los 350 años que duró la trata transatlántica un adulto era considerado un hombre o mujer mayor de 13 a 14 años o con más de o con más de 4 pies con 4 pulgadas (1,30 metros) de estatura. Sin embargo, según los gráfica hubo más personas esclavizadas entre los 5 y 10 años que entre los 15 y 20 años. </p> 
+      <h2>Género de personas esclavizadas</h2>
+      <img id="imagen" width="400px"src="https://historia.nationalgeographic.com.es/medio/2014/11/13/esclavos4_2000x1304.jpg">
+      <p> Teniendo en cuenta que las personas capturadas eran atadas o subyugadas por la fuerza durante incursiones esclavistas en sus aldeas de residencia, según la gráfica es posible concluir que la razón por la que la cantidad de mujeres y niñas esclavizadas es menor se debe a que los hombres y niños podían tener mayor valor comercial. </p> 
+    </div>
+      <svg id="svg_graph1"></svg>
+</div>
+    <p> <a href="https://slavevoyages.org/"> Fuente.</a> </p>
+    <h2>Nombres de personas esclavizadas</h2>
+      <img id="imagen" width="400px"src="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/08/22063037/esclavitud-400-mujeres-y-ninos-en-un-campo-de-algodon-1860-Smithsonian-National-Museum-of-African-American-History-and-Culture1.jpg">
+      <p> Esta gráfica se relaciona con la anterior ya que muestra que la mayor cantidad de nombres son (presumiblemente) masculinos, lo cual reafirma que era el género mayoritariamente capturado y esclavizado </p>
+      <svg id="svg_graph2"></svg>
+      <p> <a href="https://slavevoyages.org/"> Fuente.</a> </p>
+    </div>
+        
+</div>
+    </div>
+    </div>
+</div>
+  </div>
+  </div>
+
+  </div>
+  </div>
+</div>
+  </body>
+  <style>
+    h1{
+      font-size: 50px;
+      color: grey;
+    } 
+    #general {
+      width: 700px;
+      margin: auto;
+      padding: 30px;
+    }
+    #texto {
+      font-size: 18px;
+      font-family:"Bebas";
+    }
+    #encabezados {
+      text-align: center;
+      image-orientation: center;
+    }
+    h1,h2 {
+      font-family: 'Open Sans', sans-serif;
+    }
+    #imagen {
+      width: 100%;
+    }
+    
+
+    body {
+      padding: 0;
+      margin: 60;
+    }
+    svg {
+      border: solid 1 px;
+      display: block;
+    }
+    svg text {
+      font-size: 16px;
+      font-family:"Economica";
+    }
+  </style>
+  <script src="d3.min.js"></script>
+  <script src="sketch.js"></script>
+</html>
