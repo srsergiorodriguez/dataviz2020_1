@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <link href="hojadeestilos.css" rel="stylesheet" />
+    <title>Visualizaciones de los datos de slavevoyages.org</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      svg {
+        border: groove 1px;
+        display: block;
+      }
+      svg text {
+        font-size: 12px;
+        font-family:"Arial";
+      }
+      .tooltip {
+            position: absolute;
+            width:  auto;
+            height: auto;
+            pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Análisis del Tráfico interamericano de esclavos</h1>
+    <h3>Número de esclavos que llegaron a cada Puerto</h3>
+    <h5>* Con el mouse sobre el nombre del Puerto se observará el nombre completo y el número de esclavos </h5>
+    <div class="viz_container" style="width: 80%" class="polig">
+      <table>
+        <tr>
+          <td>
+            <svg id="svg_graph"></svg>
+          </td>
+          <td style="width:50%; padding-left:30px">
+              <p>Tres puertos principales fueron usados para la llegada de esclavos: Cuba, 
+                Río de la Plata y Circum-Caribe Español. Los cuales concentraron un 75% del total
+                de la población esclava que arribó en América, correspondiente a: 225.940 personas de 
+                acuerdo con los datos registrados en estas fuentes de información.
+              </br>
+                Y aunque son múltiples los puertos usados para la llegada de los esclavos, es sin duda 
+                América Latina la principal región de recepción de esta población esclava. Abarcando
+                no solo el mayor número de puertos de llegada sino la mayoría de los esclavos
+                registrados.
+              </br>
+                Cifras que se explican por ser los destinos escogidos en las rutas de tráfico de esclavos desde 
+                Europa hasta Amérca, tal como se observa en la gráfica "Mapas de rutas del tráfico de esclavos.
+                 Salidas-Llegadas".
+              </p>
+          </td>
+         </tr>
+      </table>
+    </div>
+    </br>
+    <h3>Número de esclavos por sexo/edad que llegaron entre 1819 y 1848</h3>
+    <div class="viz_container2">
+      <svg id="svg_graph2"></svg>
+    </div>
+    <div style="width: 80%; margin-left: 70px"> 
+      <p>
+        Para entender la magnitud del impacto de la esclavitud, es necesario conocer como
+        la explotación no solo se enfocó en hombres y mujeres adultos sino que involucró
+        adicionalmente el tráfico de niños, cuyo número resultó significativamente importante respecto 
+        al total de la población esclava. Aunque solo se presentan los datos entre 1819 y 1848 y la esclavutid en América
+        se dió desde el mismo momento del descubrimiento, esta muestra de datos resulta relevante
+        para explicar la proporción por género y edad de la pablación esclava que se traficó
+        en toda América.
+      </p>
+    </div>
+   </br>
+    <h3>Mapa de rutas del tráfico de esclavos. Salidas-Llegadas</h3>
+    <h5>* Use el mouse para acercar y alejar el mapa</h5>
+    <div class="viz_container3" id ="viz_container3">
+      <svg id="svg_graph3"></svg>
+    </div>
+    <div style="width: 80%; margin-left: 70px"> 
+      <p>
+        En este mapa se hace aún más evidente como los puertos en el Caribe y Río de la Plata
+        concentraron la llegada de la población esclava a América, al ser parte de las rutas
+        de tráfico de los esclavos como lugar de llegada desde Europa y su posterior distribución a
+        otras sitios en América. 
+        Es notable como desde España se usaba los puertos en Sur América para la recepción de la
+        población esclava y como desde Inglaterra y Países Bajos los esclavos llegaban a dos puertos
+        específicos: Jamaica y Caribe Holandés (Hoy Surinam).
+      </p>
+    </div>
+    <div style="margin-left: 70px">
+      <p>Nota: Información tomada de las Base de Datos: Tráfico interamericano de esclavos y Nombres Africanos</p>
+      <p>Por Mónica Ruiz</p>
+    </div>
+  </body>
+  <script src="d3.min.js"></script>
+  <script src="codebook.js"></script>
+  <script src="sketch.js"></script>
+
+</html>
