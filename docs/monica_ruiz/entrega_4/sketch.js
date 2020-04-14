@@ -201,9 +201,10 @@ function stacked_bar(data){
   
   // Para formatear los datos y facilitar su manejo para la gráfica
   let total_datos = data_grouped.length;
+  let data_formated_aux = [];
   let data_formated = [];
   let data_annos = [];
-
+  
  for (i=0;i < total_datos;i++){
    let objeto = {}; 
     objeto.Anno = data_grouped[i].key;
@@ -221,8 +222,10 @@ function stacked_bar(data){
         objeto.Boy = new_obj[1];
       }
     }
-    data_formated.push(objeto);
+    data_formated_aux.push(objeto);
   };
+
+  data_formated = data_formated_aux.sort( (a,b) => d3.ascending(a.Anno, b.Anno));
 
   // Esta función se usa para generar el gráfico stacked-bar
   let stack = d3.stack().keys(keys_data);
