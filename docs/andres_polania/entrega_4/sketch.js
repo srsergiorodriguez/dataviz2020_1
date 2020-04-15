@@ -77,10 +77,13 @@ d3.csv("interamerican_traffic.csv",(element)=> {
   
   // Definir link
   
-
+	if(filtered['esclavos_llegan'] == "  "){
+		filtered['esclavos_llegan'] = 1;
+	}
   let linkTemp = {
 		  source: filtered['region_salida'],
 		  target: filtered['puerto_llegada'],
+		  //value: +filtered['esclavos_llegan']/10,
 		  value: 1,
 	};
   

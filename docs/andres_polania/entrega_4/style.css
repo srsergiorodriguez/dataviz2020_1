@@ -14,7 +14,6 @@ h2{
 h3, p {
     font-weight: 400;
     font-size: calc(7pt + 0.5vh);
-    text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom:15px;
 }
@@ -35,3 +34,25 @@ h1,h2,h3,h4, p {
 	margin-top: 100px;
 }
 
+
+.dot-blue {
+  height: 10px;
+  width: 10px;
+  background-color: #007bff;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.dot-naranja {
+  height: 10px;
+  width: 10px;
+  background-color: #fd7e14;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer¨{
+	margin-bottom: 200px;
+}
