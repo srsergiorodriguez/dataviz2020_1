@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="">
+ 
+  <head>
+        <meta charset="utf-8">
+        <title>El proyecto SlaveVoyages en gráficos</title>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+  
+
+    <style>
+    
+     body
+         {
+           padding: 0;
+           margin: 30;
+         }
+        svg {
+          border: solid 4px;
+          display: block;
+        }
+       
+    </style>
+
+  </head>
+
+     <body>
+      <div id="encabezado">
+        <h1>El proyecto SlaveVoyages en gráficos</h1>
+
+        <img width="800px" src="https://slavevoyages.org/documents//images/B0FA5B6286C65C1B6D105928CB7D0939.JPG">
+        </div>
+
+         <div id="sumario">
+          <h2>Esta iniciativa reúne tres bases de datos relacionadas con los viajes transatlánticos e interamericanos de esclavistas entre 1514 y 1866; así como, los nombres de quienes padecieron la trata de esclavos.</h2>
+          
+
+          
+             <contenido id="contenido1">
+            <p>El proyecto <a href="https://slavevoyages.org/">Viajes Esclavistas</a> se ha convertido en el primer referente digital sobre el comercio de esclavos africanos y el tráfico trasatlántico, en el que se incorpora la información proveniente de bibliotecas y archivos de todo el mundo.
+            La plataforma digital es el resultado de dos años de diseño y el trabajo colaborativo de un equipo multidisciplinario en el que participaron historiadores, bibliotecarios, cartógrafos, programadores y diseñadores de varios continentes.
+            </p>
+
+                <h3>Gráfica 1</h3>
+            <div class="viz_container">
+                <svg id="grafica1"></svg>               
+                <p>Este gráfico de barras señala las regiones a las que llegaban los barcos esclavistas en las Américas, particularmente, se muestran los destinos donde atracaban más de cien barcos. La base de datos permite concluir que Jamaica era lugar donde llegaba el mayor número de embarcaciones con esclavos africanos, mientras que Nueva York, entre los 15 puntos de llegada, es la que concentra el menor número de arribos de naves.</p>
+                <h4>Gráfica 2</h4>
+                <svg id="grafica2"></svg>
+                <p>En este gráfico se pretende cruzar los datos de los puntos de salida de las embarcaciones esclavistas con los de llegada, la gráfica original mostraba en el eje y2 las regiones de desembarco; sin embargo, se decidió cruzar los datos con los puertos de desembarco. Debido a la gran cantidad de viajes interamericanos y a las limitaciones en cuanto a los registros de origen y destinos de todos los barcos; así como, los múltiples trasbordos, se hace muy difícil el seguimiento riguroso de los itinerarios de viaje con sus respectivos puntos de salida y llegada. Se observa que un gran para un gran número de viajes se desconoce el lugar de partida.</p>
+                <h5>Gráfica 3</h5>
+                <svg id="grafica3"></svg>
+                <p>
+                  Este mapa muestra las principales conexiones de los viajes navales del tráfico esclavista entre Europa y América. Las líneas señalan las rutas de los desembarcos y partidas de las naves. No obstante, es imposible determinar qué punto en el mapa constituye una salida o una llegada. Este aspecto de la visualización se podría mejorar con la inclusión de datos que hacen parte del repositorio como es el caso de los nombres de las regiones, también se podría deducir el número de veces que una embarcación partió o desembarcó.
+                  </p>
+            </div>
+        
+
+    </body>
+    <style>
+          body
+                h1{
+                font-size: 70px;
+                text-align: center;
+                }
+            #encabezado {
+                width: 800px;
+                margin:auto;
+
+            }
+
+            #contenido1 {
+                font-family: 'Roboto', sans-serif;
+                text-align: justify-self; margin: 0px;
+                            }
+
+               h3, h4, h5 {
+                font-size: 20px;
+                line-height : 0.5;
+                        }
+            
+
+            
+                             
+   </style>
+
+ <script src="d3.min.js"></script>
+ <script src="sketch.js"></script>
+
+</html>
