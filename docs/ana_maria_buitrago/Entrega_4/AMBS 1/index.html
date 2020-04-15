@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>La influencia africana en el español</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      svg {
+        border: solid 5px;
+        display: block;
+      }
+      svg text {
+        font-size: 14px;
+        font-family:"Arial";
+        text-align: center;
+
+      }
+    </style>
+  </head>
+  <body>
+    <h1>La influencia africana en el español</h1>
+   
+  
+   <div id="cuerpo"> 
+
+
+    <div class="line-gutter-backdrop">
+    <h3>Este espacio indaga sobre la relación del tráfico de esclavos y la evolución del español en países latinoamericanos.</h3>
+     </div>
+
+    <img width="560" height="315" src="https://historia.nationalgeographic.com.es/medio/2019/01/30/esclavos1_8d16e4ee_1200x630.jpg" alt="Cautivos de Afr">
+
+    
+
+    <p>La Base de Datos busca reunir datos sobre todas esas migraciones forzadas en forma conjunta. La consolidación de dicha información en una sola base de datos revela patrones, conexiones y redes previamente ocultos por las barreras del idioma y la especialización geográfica.</p>
+    <p>En el sitio <a href="https://slavevoyages.org/"> Viajes esclavistas</a> se encuentra una base de datos sobre el tráfico de esclavos intra-americano, allí se reúne información sobre las migraciones forzadas y ocurridas dentro de las Américas como una forma de comercio.</p>
+    <p>Además de la información ya relevante sobre la comercialización y el tráfico existente, los datos permiten hacer indagar sobre otros aspectos en disciplinas diferentes, por ejemplo, para el campo del lenguaje es interesante revisar estos datos y hacer inferencias sobre los tránsitos lingüísticos ocurridos y las posibles influencias que estos tuvieron en la consolidación del español como lengua en los países latinoamericanos.  </p>
+   
+
+    
+      <p>De la base de datos del comercio de <a href= "https://slavevoyages.org/american/about#methodology/0/es/">Esclavos intra-americano </a>   se sustraerán tres representaciones gráficas para tener un acercamiento al tema propuesto: Inicialmente un mapa donde se reflejan los lugares de mayor asentamiento de esclavos traidos desde Africa y movilizados por las Américas.</p>
+      <svg id="graficamapa"></svg>
+    
+    
+    <p>El mapa representa la extensión geográfica desde Boston hasta Buenos Aires, la distribución a lo largo de América en donde se situaron los esclavos. Quienes eran provenientes de Africa o en algunos casos fueron personas nacidas en cautiverio y se convirtieron en esclavos Americanos. La distribución muestra presencia en imperios Británicos y Españoles principalmente.</p>
+
+    <p>Está información conduce a reflexionar sobre como la diaspora africana marco condiciones culturales propias e influyo sobre las costumbres existentes en las regiones a las cuales arribaron las embarcaciones de esclavos. Para el S XVI comenzó la llegada a Cuba desde islas Portuguesas de embarcaciones de esclavos, sin embargo, posterior a ello comenzaron los viajes por varios lugares de América.</p>
+
+    <p>Revisar la información de la base de datos permite darse una idea de como las lenguas africanas se diseminaron a lo largo de las colonias europeas, esto al revisar  los miles de viajes de esclavos principalmente de embarcaciones portuguesas, británicas y holandesas a los dominios españoles, uno de los destinos que sobresale es Cuba, también están Puerto Rico, México, Colombia, Venezuela y el Río de la Plata.</p>
+
+    
+      <p>En tal sentido, revisar los embarques y desembarques realizados desde distinto puertos sirven para ilustrar lo dicho:</p>
+      <svg id="graficaembarque"></svg>
+    
+
+    <div class="viz_container">
+      <p>Los buques iban y venían, sin embargo como explica el sitio de la base de datos, en varios casos los registros no aparecen completos por lo que la información no necesariamente coincide. Lo más importante es que los viajes representan el transito entre esclavos que ya habían llegado del Africa y se encontraban en algún lugar de América, transitaban a otro lugar de América y con ellos las costumbres y el vocabulario propio y el adquirido.</p>
+       <svg id="graficadesembarque"></svg>
+    </div> 
+
+    <p>Es decir, esto hace pensar que en efecto hay influencias sustráticas de las lenguas africanas en las lenguas criolla, un dato interesante es que la Corona Española regulaba el uso de los idiomas indios, sin embargo, no se fijaba en el empleo de las lenguas africanas por considerar a sus hablantes mercancía, permitiendo de forma paradójica el uso libre de su lengua.</p>
+    <p>Un ejemplo de lo dicho es el nombre de uno de los lugares más conocidos en la Literatura, el nombre de la natal Macondo de la familia Buendía, fue rastreado etimológicamente por el filólogo español de Germán de Granda, encontrando que la palabra “macondo” era la forma de referirse al plátano en las plantaciones donde se empleaban principalmente negros llegados de Africa.</p>
+   <p>La cantidad de personas desembarcadas en regiones como Jamaica, o regiones del caribe se caracterizarán porque allí sobrevivirián lenguas de origen africano y por ende tradiciones como la santeria; tal como explicó: Matthias Perl, en el congreso de Valladolid de 2001, en la conferencia: "El español en contacto con lenguas africanas en América" la distribución demográfica marca las variedades del español caribeño, además no podría hablarse de un español de los negros, sin embargo, si se encontrarán variedades y divergencias culturales bien marcadas. 
+     </p>   
+
+    </div>
+
+    <div id="fuente">
+      <p class= "referencia">Fuentes: 
+        Congreso de Valladolid. (2001). El español en contacto con lenguas africanas en América </p>
+      <p> <ins>Viajes esclavistas https://slavevoyages.org/</ins> 
+
+      </p>
+  </div>    
+
+    <style>
+      h1 {
+      font-size: 40px;
+      font-family: 'Shadows Into Light', cursive;
+      text-align: center;
+      }
+
+      #cuerpo{
+        width: 900px;
+        margin: auto;
+        border: darkgray solid 5px;
+
+      }
+    </style>
+
+  </body>
+  <script src="d3.min.js"></script>
+  <script src="codebook.js"></script>
+  <script src="sketch.js"></script>
+</html>
