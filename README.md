@@ -111,6 +111,15 @@ Con respecto a la evaluación, hay **tres niveles de complejidad** de este ejerc
 
 ***Suban en análisis en su carpeta del repositorio en una subcarpeta con el nombre entrega_4 (sin mayúscula), la fecha máxima de entrega es el 13 de abril***.
 
+Trabajos de la entrega:
+
+[Ana María](https://srsergiorodriguez.github.io/dataviz2020_1/ana_maria_buitrago/Entrega_4/AMBS%201/),
+[Andrés](https://srsergiorodriguez.github.io/dataviz2020_1/andres_polania/entrega_4/),
+[Camila](https://srsergiorodriguez.github.io/dataviz2020_1/camila_barajas/Entrega_4/),
+[Isis](https://srsergiorodriguez.github.io/dataviz2020_1/isis_beleno/entrega_4corregido/),
+[Mónica](https://srsergiorodriguez.github.io/dataviz2020_1/monica_ruiz/entrega_4/),
+[Teresa](https://srsergiorodriguez.github.io/dataviz2020_1/teresa_loayza/entrega_4/)
+
 ### Entrega 5
 Esta entrega consiste en hacer una *visualización simbólica* como las que hemos discutido en clase. Les propongo tres opciones diferentes, ustedes pueden escoger la que más les interese:
 
