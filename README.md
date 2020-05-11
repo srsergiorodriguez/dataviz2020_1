@@ -130,3 +130,5 @@ Esta entrega consiste en hacer una *visualización simbólica* como las que hemo
 * *Crear un entorno de visualización en Palladio*. Pueden recopilar una o varias tablas con datos que estén interesados en analizar y que estén formateados adecuadamente para que Palladio los lea adecuadamente. Lo que tendrían que enviarme en este caso es un pdf con visualizaciones concretas producidas en Palladio a partir de los datos y un texto corto (max 400 palabras) que explique los descubrimientos que tuvieron en la exploración o un análisis concreto de los datos.
 
 ***Deben enviarme el ejercicio por correo antes del 4 de mayo***
+
+Aquí pueden leer todos los trabajos de la entrega: [enlace](https://drive.google.com/open?id=1080iFhrg9QyMOx17S7LJT6gPxdgxcfUw)
