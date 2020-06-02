@@ -1,0 +1,21 @@
+wp_vizbg
+adm_vizbg
+pass_adm_vizbg
+
+
+
+
+CREATE DATABASE wp_vizbg;
+CREATE USER adm_vizbg@localhost;
+SET PASSWORD FOR adm_vizbg@localhost= PASSWORD("pass_adm_vizbg");
+GRANT ALL PRIVILEGES ON wp_vizbg.* TO adm_vizbg@localhost IDENTIFIED BY 'pass_adm_vizbg';
+FLUSH PRIVILEGES;
+
+
+
+---- wordpress
+Atlas de color Beatriz González
+admin
+apolan
+	afpolani@gmail.com
+	DyoO@faNHRTOO64(cn

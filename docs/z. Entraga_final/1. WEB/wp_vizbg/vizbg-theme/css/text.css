@@ -1,0 +1,118 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 15, 2020, 2:48:32 PM
+    Author     : apolan
+*/
+
+
+/* DISPOSITIVOS HASTA 576px */
+@media only screen and (max-width: 576px) {
+
+}
+
+
+/* DISPOSITIVOS ENTRE 576px y 1200px  */
+@media only screen and (min-width: 576px) and (max-width: 1200px) {
+
+
+
+}
+
+/* DISPOSITIVOS Mayor a 1200px */
+@media only screen and (min-width: 1200px ) and (max-width: 1800px)  {
+
+}
+
+
+/* DISPOSITIVOS Mayor a 1600px */
+@media only screen and (min-width: 1801px )  {
+
+}
+
+
+/* Fuentes */
+.txt-titulo-proyecto{
+    font-size: 20pt;
+    font-family: 'adllblack';
+    text-align: left;
+}
+
+.txt-titulo-1{
+    font-size: 12pt;
+    font-family: 'adllbold';
+
+}
+
+
+.txt-subtitulo-1{
+    font-size: 10pt;
+    font-family: 'adllbold';
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.txt-subtitulo-2{
+    font-size: 10pt;
+    font-family: 'adllbook';
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.txt-subtitulo-3{
+    font-size: 7pt;
+    font-family: 'adllbold';
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 5px;
+}
+
+
+.txt-normal-1{
+    font-size: 8pt;
+    font-family: 'adlllight';
+    text-align: left;
+}
+
+.txt-normal-2{
+    font-size: 10pt;
+    font-family: 'adlllight';
+    text-align: left;
+}
+
+.txt-normal-3{
+    font-size: 8pt;
+    font-family: 'adlllight';
+    text-align: left;
+    color: gray;
+    margin-bottom: 1px;
+    margin-bottom: 5px;
+}
+
+.txt-normal-4{
+    font-size: 8pt;
+    font-family: 'adlllight';
+    text-align: left;
+    color: black;
+    margin-bottom: 1px;
+    margin-bottom: 5px;
+}
+
+.txt-normal-linea{
+    font-size: 8pt;
+    font-family: 'adllbold';
+    text-align: left;
+}
+
+.foto_seleccionada{
+    width: 70%;
+    min-height: 100px;
+}
+
+
+.img-click{
+    border: 4px solid #155724;
+}

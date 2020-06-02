@@ -1,0 +1,21 @@
+/*
+ Theme Name:   vizbg-theme Theme
+ Description:  vizbg-theme Theme
+ Author:       Andrés Polanía
+ Version:      1.1.0
+ tags: Bootsrap, Reference, Responsive, UX 
+See:
+*/
+
+
+/* master.css */
+@import url("./css/menu.css");
+@import url("./css/footer.css");
+@import url("./css/color.css");
+@import url("./css/text.css");
+@import url("./css/page.css");
+@import url("./css/sections.css");
+
+
+
+

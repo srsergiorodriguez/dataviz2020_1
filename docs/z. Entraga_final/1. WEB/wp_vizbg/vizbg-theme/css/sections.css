@@ -1,0 +1,327 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 8, 2017, 3:55:17 PM
+    Author     : apolan
+*/
+
+
+
+body {
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+    background-color: white;
+}
+
+.row{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.section-general{
+    margin-top: 120px !important;
+}
+
+
+/*Espacios*/
+.space-sm{
+    margin-bottom: 10px;
+}
+
+.space-lg{
+    margin-top: 100px;
+}
+
+
+.container{
+    margin-bottom: 100px;
+}
+
+.row-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column-grid {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column-grid img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column-grid {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column-grid {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+* { box-sizing: border-box; }
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+body { font-family: sans-serif; }
+
+/* ---- grid ---- */
+
+
+* { box-sizing: border-box; }
+
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.grid-sizer-2,
+.grid-item-2 {
+    width: 10%;
+}
+
+.grid-sizer,
+.grid-item {
+    width: 33.333%;
+}
+
+@media (max-width: 575px) {
+    .grid-sizer,
+    .grid-item {
+        width: 100%;
+    }
+
+    .grid-sizer-2,
+    .grid-item-2 {
+        width: 100%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .grid-sizer,
+    .grid-item {
+        width: 50%;
+    }
+
+    .grid-sizer-2,
+    .grid-item-2 {
+        width: 50%;
+    }
+}
+
+
+
+.grid-item, .grid-item-2 {
+    float: left;
+    background: #dddbd7;
+}
+
+.grid-item img, .grid-item-2 img {
+    display: block;
+    max-width: 100%;
+}
+
+
+.palette{
+    height:40px;
+    width:  auto;
+    bottom: 35px;
+    padding: 5px;
+    margin: 0 auto;
+    background: #dddbd7;
+}
+
+.color-palette{
+    width:9.3%;
+    height:100%;
+    background: green;
+    display: inline-block;
+    margin: auto;
+    border: 1px solid #DDD;
+    padding: 0;
+}
+
+.color-epoca{
+
+    width: 100%;
+    height: 25px;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 2px;
+
+    -moz-background-clip: border;     /* Firefox 3.6 */
+    -webkit-background-clip: border;  /* Safari 4? Chrome 6? */
+    background-clip: border-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+
+    -moz-background-clip: padding;     /* Firefox 3.6 */
+    -webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
+    background-clip: padding-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+
+    -moz-background-clip: content;     /* Firefox 3.6 */
+    -webkit-background-clip: content;  /* Safari 4? Chrome 6? */
+    background-clip: content-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+
+}
+
+
+.linea-tiempo{
+    margin: auto;
+    position: relative;
+
+}
+
+.linea-hecho{
+    width: 0; 
+    height: 0; 
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 16px solid black;
+    left: -8px;
+
+    margin:auto;
+    position: relative;
+    z-index : 10;
+    transition: 0.1s;
+}
+
+.linea-obra{
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    top:-3px;
+    left: -8px;
+    margin:auto;
+    position: relative;
+    z-index : 10;
+    transition: 0.1s;
+    margin-top: 5px;
+}
+
+.linea-txt{
+    right: calc(100px + 4vh);
+    top:-13px;
+    position: relative;
+    width: calc(100px + 2vh); 
+    text-align: right;
+    vertical-align: text-top;
+}
+
+.linea-txt-right{
+    left: 14px;
+    top: -47px;
+    position: relative;
+    text-align: left;
+}
+
+.linea-hecho:hover{
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid rgba(255, 193, 7, 1);
+}
+.linea-obra:hover{
+    border: 2px solid rgba(255, 193, 7, 1);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.55);
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.55);
+
+}
+
+.linea-hecho-contenedor, .linea-obra-contenedor{
+    position: relative;
+}
+
+
+.galery-foto{
+}
+
+
+.container {
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 992px){
+    .container {
+        max-width: 1400px;
+    }
+}
+
+
+.linea-row-year {
+    min-height: 90px;
+    border-top:  0.5px solid #ececec;
+    border-bottom:  0.5px solid #ececec;
+}
+
+.linea-row-year .col-sm-1{
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+    min-width: 35px;
+}
+
+.linea-row-year .col-sm-10{
+    padding-right: 5px !important;
+    padding-left: 15px !important;
+    max-width:107px;
+    min-width: 70px !important;
+}
+
+.linea-fondo{
+    background: #DDD;
+    min-width: 8px !important;
+}
+
+
+.obra-seleccionada{
+    border: 9px solid;
+}
+
+.hecho-seleccionado{
+    border-bottom: 16px solid red;
+}
+
+
+.btn-mujer{
+    background-color: #21FFC8 !important;
+    border-color: transparent;
+    color: black !important;
+    font-size: 9pt !important;
+    padding: 5px;
+    margin: 3px;
+}
+
+.btn-violencia{
+    background-color: #FF143D !important;
+    color: white !important;
+    border-color: transparent;
+    font-size: 9pt !important;
+    padding: 5px;
+    margin: 3px;
+}

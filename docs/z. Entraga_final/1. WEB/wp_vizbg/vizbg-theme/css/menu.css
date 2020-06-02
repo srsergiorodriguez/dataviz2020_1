@@ -1,0 +1,133 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 8, 2017, 2:49:42 PM
+    Author     : apolan
+*/
+
+
+@media only screen and (max-width: 768px) {
+    /* For phone: */
+    #navbarNav a{ 
+        font-size: calc(7pt + 0.5vw) !important;
+        text-align: center;
+        font-family: 'gtbook';
+    }
+
+    #navbarNav img{
+        display: none !important;
+    } 
+
+    #navbarNav a:hover{ 
+        transition: 0.3s;
+        font-size: calc(9pt + 0.5vw) !important;
+        text-align: center;
+        font-family: 'gtbold';
+    }
+
+    .logo-collapse{
+        display: inline;
+        min-width: 70px;
+        max-width: calc(1vw + 10px);
+    }
+
+    #menu-rp{
+        border:0;
+    }
+
+    #menu-rp img{
+        max-width:calc(80px + 8vw) !important;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    #navbarNav a{ 
+        font-size: calc(7pt + 0.2vw) !important;
+        font-family: 'gtbook';
+        text-align: center;
+        width: 180px;
+    }
+
+    #navbarNav li{
+        margin-right:10px;
+        margin-left:10px;        
+    }
+
+    #navbarNav .login{
+        margin-right:5px;
+        padding-left:30px !important;
+        width: auto !important;
+        border-left: 1px solid white;
+    }
+
+    #navbarNav img{
+        min-width: 70px;
+        max-width: calc(1vw + 10px);
+        margin-right:60px;
+    } 
+
+    #navbarNav a:hover{ 
+        font-size: calc(8pt + 0.2vw) !important;
+        text-align: center;
+        font-family: 'gtbold';
+    }
+
+    #navbarNav .ul-right{
+        margin-left: auto !important;
+    }
+
+    #navbarNav .active{
+        font-size: calc(8pt + 0.2vw) !important;
+        text-align: center;
+        font-family: 'gtbold';
+    }
+
+    .logo-collapse{
+        display: none;
+    }
+
+    #menu-rp{
+        display: none;
+    }
+
+}
+
+.navbar{
+    border-radius: 0px !important;
+    top: 0;
+    position: fixed;
+    right:0;
+    left:0;
+    min-width: 100vw;
+    z-index: 1000;
+    box-shadow: 0 6px 7px -6px #999;
+}
+
+
+#navbarNav a{ 
+    color:white !important;
+    font-family: 'gtbook';
+}
+
+.navbar-light .navbar-toggler {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+/*
+
+#navbarNav img{
+
+    min-width: 70px;
+    max-width: calc(3vw + 10px);
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;   50% of your logo width
+    display: block;
+}
+*/

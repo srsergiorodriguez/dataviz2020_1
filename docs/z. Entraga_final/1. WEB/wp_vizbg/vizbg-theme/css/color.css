@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 8, 2017, 2:48:32 PM
+    Author     : apolan
+*/
+
+
+/*
+    Colores Core
+*/
+
+.color-primary{
+    color:#ff4b19 !important;
+}
+.color-bkg-primary{
+    background-color:#333333 !important; 
+}
+
+.color-secundary{
+    color:#003237 !important;
+}
+
+.color-bkg-secundary{
+    background-color:#003237 !important;
+}
+
+.color-bkg-tertiary-A{
+    background-color:#00FFF1 !important; 
+}
+
+.color-bkg-tertiary-B{
+    background-color:#FFA984 !important;
+}
+
+.color-gray-1{
+    color:#666666;
+}
+
+.hap-bkg-gray-2{
+    background-color:#DDDDDD;
+}
+
+.hap-black-1{
+    color:#333333;
+}
+
+.hap-white{
+    color:white;
+}
+
+.hap-btn-primary{
+    border-color: transparent;
+    padding: 5px 10px 5px 10px; 
+}
+
+
+/*
+    Colores Metodologías
+*/
+.hap-bkg-desc{
+   background-color:#00A7D3 !important; 
+}
+
+.hap-bkg-inte{
+   background-color:#00A082 !important; 
+}
+
+.hap-bkg-cocr{
+   background-color:#F8AF36 !important; 
+}
+.hap-bkg-espe{
+   background-color:#E73755 !important; 
+}
+.hap-bkg-acom{
+   background-color:#454083 !important; 
+}
+.hap-bkg-eva{
+   background-color:#A33E8F !important; 
+}

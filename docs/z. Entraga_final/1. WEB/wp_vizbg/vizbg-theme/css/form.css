@@ -1,0 +1,58 @@
+div.wpcf7{
+    margin: 20px !important;
+}
+
+.wpcf7 {
+    width: calc(250px + 15vw);
+    background-color: white;
+    border: 2px solid #006E83;
+    box-shadow: 3px 3px 8px #888888;
+}
+
+
+.wpcf7-form {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+
+.wpcf7-persona{
+    width: calc(250px + 15vw);
+    background-color: white;
+    border: 2px solid #462666 !important;
+    box-shadow: 3px 3px 8px #888888;
+}
+
+
+.wpcf7-persona .btn-primary{
+    background-color: #462666 !important;
+}
+
+.wpcf7-privado{
+    width: calc(250px + 15vw);
+    background-color: white;
+    border: 2px solid #0B5377 !important;
+    box-shadow: 3px 3px 8px #888888;
+}
+
+
+.wpcf7-privado .btn-primary{
+    background-color: #0B5377 !important;
+}
+
+.wpcf7-publico{
+    width: calc(250px + 15vw);
+    background-color: white;
+    border: 2px solid #326338 !important;
+    box-shadow: 3px 3px 8px #888888;
+}
+
+
+.wpcf7-publico .btn-primary{
+    background-color: #326338 !important;
+}
+
+wpcf7-mail-sent-ok{
+    background: #599B94 !important;
+}
